@@ -8,7 +8,7 @@ This directory contains scripts to automate VCSA/ESXi install and cluster config
 
 ### govc
 
-Install the latest release via https://github.com/vmware/govmomi/releases
+Install the latest release via https://github.com/zhengkes/govmomi/releases
 
 ### jq
 

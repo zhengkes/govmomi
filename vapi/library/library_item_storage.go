@@ -20,7 +20,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/vmware/govmomi/vapi/internal"
+	"github.com/zhengkes/govmomi/vapi/internal"
 )
 
 // Storage is an expanded form of library.File that includes details about the

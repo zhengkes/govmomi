@@ -73,7 +73,7 @@ EOF
 @test "vcsim host placement" {
   vcsim_start -dc 0
 
-  # https://github.com/vmware/govmomi/issues/1258
+  # https://github.com/zhengkes/govmomi/issues/1258
   id=$(new_id)
   govc datacenter.create DC0
   govc cluster.create comp

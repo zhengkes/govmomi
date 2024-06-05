@@ -20,11 +20,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/vmware/govmomi"
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/simulator/esx"
-	"github.com/vmware/govmomi/simulator/vpx"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi"
+	"github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/simulator/esx"
+	"github.com/zhengkes/govmomi/simulator/vpx"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 func TestClusterESX(t *testing.T) {

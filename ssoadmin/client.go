@@ -24,14 +24,14 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/vmware/govmomi/internal"
-	"github.com/vmware/govmomi/lookup"
-	ltypes "github.com/vmware/govmomi/lookup/types"
-	"github.com/vmware/govmomi/ssoadmin/methods"
-	"github.com/vmware/govmomi/ssoadmin/types"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
-	vim "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/internal"
+	"github.com/zhengkes/govmomi/lookup"
+	ltypes "github.com/zhengkes/govmomi/lookup/types"
+	"github.com/zhengkes/govmomi/ssoadmin/methods"
+	"github.com/zhengkes/govmomi/ssoadmin/types"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	vim "github.com/zhengkes/govmomi/vim25/types"
 )
 
 const (

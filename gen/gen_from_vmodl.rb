@@ -221,7 +221,7 @@ File.open(File.join(ARGV.first, "mo/mo.go"), "w") do |io|
   io.print WSDL.header("mo")
   io.print <<EOF
 import (
-        "github.com/vmware/govmomi/vim25/types"
+        "github.com/zhengkes/govmomi/vim25/types"
 )
 EOF
 

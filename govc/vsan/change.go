@@ -20,10 +20,10 @@ import (
 	"context"
 	"flag"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/vsan"
-	"github.com/vmware/govmomi/vsan/types"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/flags"
+	"github.com/zhengkes/govmomi/vsan"
+	"github.com/zhengkes/govmomi/vsan/types"
 )
 
 type change struct {

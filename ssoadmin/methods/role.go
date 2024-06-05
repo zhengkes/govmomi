@@ -19,9 +19,9 @@ package methods
 import (
 	"context"
 
-	"github.com/vmware/govmomi/ssoadmin/types"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/xml"
+	"github.com/zhengkes/govmomi/ssoadmin/types"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/xml"
 )
 
 // Methods here are not included in the wsdl

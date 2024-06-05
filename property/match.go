@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // Match provides methods for matching against types.DynamicProperty

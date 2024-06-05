@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/vmware/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/vapi/rest"
 )
 
 const (

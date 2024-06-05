@@ -55,7 +55,7 @@ File.open(File.join(ARGV.first, "types/types.go"), "w") do |io|
     io.print <<EOF
 import (
         "context"
-        "github.com/vmware/govmomi/vim25/types"
+        "github.com/zhengkes/govmomi/vim25/types"
 )
 EOF
   end
@@ -83,8 +83,8 @@ File.open(File.join(ARGV.first, "methods/methods.go"), "w") do |io|
   io.print <<EOF
 import (
         "context"
-        "github.com/vmware/govmomi/#{target}/types"
-        "github.com/vmware/govmomi/vim25/soap"
+        "github.com/zhengkes/govmomi/#{target}/types"
+        "github.com/zhengkes/govmomi/vim25/soap"
 )
 EOF
 

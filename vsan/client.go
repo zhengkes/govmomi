@@ -20,12 +20,12 @@ import (
 	"context"
 	"errors"
 
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
-	vimtypes "github.com/vmware/govmomi/vim25/types"
-	"github.com/vmware/govmomi/vsan/methods"
-	vsantypes "github.com/vmware/govmomi/vsan/types"
+	"github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	vimtypes "github.com/zhengkes/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vsan/methods"
+	vsantypes "github.com/zhengkes/govmomi/vsan/types"
 )
 
 // Namespace and Path constants

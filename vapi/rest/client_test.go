@@ -24,11 +24,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vapi/internal"
-	"github.com/vmware/govmomi/vapi/rest"
-	_ "github.com/vmware/govmomi/vapi/simulator"
-	"github.com/vmware/govmomi/vim25"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vapi/internal"
+	"github.com/zhengkes/govmomi/vapi/rest"
+	_ "github.com/zhengkes/govmomi/vapi/simulator"
+	"github.com/zhengkes/govmomi/vim25"
 )
 
 func TestSession(t *testing.T) {

@@ -31,11 +31,11 @@ import (
 
 	"github.com/dougm/pretty"
 
-	"github.com/vmware/govmomi/task"
-	"github.com/vmware/govmomi/vim25/progress"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
-	"github.com/vmware/govmomi/vim25/xml"
+	"github.com/zhengkes/govmomi/task"
+	"github.com/zhengkes/govmomi/vim25/progress"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/xml"
 )
 
 type OutputWriter interface {

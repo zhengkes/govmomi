@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"path"
 
-	"github.com/vmware/govmomi/vapi/namespace/internal"
+	"github.com/zhengkes/govmomi/vapi/namespace/internal"
 )
 
 // SupervisorServiceSummary for a supervisor service existent in vSphere.

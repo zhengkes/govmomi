@@ -26,7 +26,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // Type values for use in BootOrder

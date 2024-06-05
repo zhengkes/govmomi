@@ -20,9 +20,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/view"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/property"
+	"github.com/zhengkes/govmomi/view"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 type tailInfo struct {

@@ -24,10 +24,10 @@ import (
 	"net/http"
 	"path"
 
-	"github.com/vmware/govmomi/vapi/internal"
-	"github.com/vmware/govmomi/vapi/library"
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vapi/internal"
+	"github.com/zhengkes/govmomi/vapi/library"
+	"github.com/zhengkes/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // vcenter vm template

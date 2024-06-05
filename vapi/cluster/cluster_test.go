@@ -20,17 +20,17 @@ import (
 	"context"
 	"testing"
 
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vapi/rest"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/vim25/types"
 
-	"github.com/vmware/govmomi/vapi/cluster"
-	"github.com/vmware/govmomi/vapi/cluster/internal"
+	"github.com/zhengkes/govmomi/vapi/cluster"
+	"github.com/zhengkes/govmomi/vapi/cluster/internal"
 
-	_ "github.com/vmware/govmomi/vapi/cluster/simulator"
-	_ "github.com/vmware/govmomi/vapi/simulator"
+	_ "github.com/zhengkes/govmomi/vapi/cluster/simulator"
+	_ "github.com/zhengkes/govmomi/vapi/simulator"
 )
 
 var enoent = types.ManagedObjectReference{Value: "enoent"}

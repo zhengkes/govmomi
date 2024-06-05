@@ -23,10 +23,10 @@ import (
 	"io"
 	"text/tabwriter"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/lookup"
-	"github.com/vmware/govmomi/lookup/types"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/flags"
+	"github.com/zhengkes/govmomi/lookup"
+	"github.com/zhengkes/govmomi/lookup/types"
 )
 
 type ls struct {

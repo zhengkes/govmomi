@@ -19,7 +19,7 @@ package esx
 import (
 	"time"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // HostHardwareInfo is the default template for the HostSystem hardware property.

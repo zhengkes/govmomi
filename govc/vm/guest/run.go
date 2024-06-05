@@ -23,7 +23,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/vmware/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/cli"
 )
 
 type run struct {

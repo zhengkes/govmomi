@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vmware/govmomi/vim25/xml"
+	"github.com/zhengkes/govmomi/vim25/xml"
 )
 
 func isC14N(s string) bool {

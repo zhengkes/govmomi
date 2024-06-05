@@ -23,7 +23,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/vmware/govmomi/vapi/library"
+	"github.com/zhengkes/govmomi/vapi/library"
 )
 
 // Finder is a helper object for finding content library objects by their

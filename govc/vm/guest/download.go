@@ -22,8 +22,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/vim25/progress"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/vim25/progress"
 )
 
 type download struct {

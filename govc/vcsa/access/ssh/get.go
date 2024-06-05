@@ -23,9 +23,9 @@ import (
 	"io"
 	"text/tabwriter"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/vapi/appliance/access/ssh"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/flags"
+	"github.com/zhengkes/govmomi/vapi/appliance/access/ssh"
 )
 
 type get struct {

@@ -19,7 +19,7 @@ package internal
 import (
 	"context"
 
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/soap"
 )
 
 type RetrieveDynamicTypeManagerBody struct {

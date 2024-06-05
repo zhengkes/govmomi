@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"path"
 
-	"github.com/vmware/govmomi/vapi/internal"
+	"github.com/zhengkes/govmomi/vapi/internal"
 )
 
 // TrustedCertificate contains a trusted certificate in Base64 encoded PEM format

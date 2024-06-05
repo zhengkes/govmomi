@@ -23,13 +23,13 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/vmware/govmomi/find"
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/simulator/esx"
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/find"
+	"github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/property"
+	"github.com/zhengkes/govmomi/simulator/esx"
+	"github.com/zhengkes/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 func TestResourcePool(t *testing.T) {

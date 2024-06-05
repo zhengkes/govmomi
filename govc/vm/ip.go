@@ -23,10 +23,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/govc/host/esxcli"
-	"github.com/vmware/govmomi/object"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/flags"
+	"github.com/zhengkes/govmomi/govc/host/esxcli"
+	"github.com/zhengkes/govmomi/object"
 )
 
 type ip struct {

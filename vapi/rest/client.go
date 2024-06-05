@@ -28,10 +28,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/vmware/govmomi/vapi/internal"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vapi/internal"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // Client extends soap.Client to support JSON encoding, while inheriting security features, debug tracing and session persistence.

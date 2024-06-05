@@ -8,7 +8,7 @@ Change `$USER` in the examples below to your Github username if they are not the
 same.
 
 ```bash
-git clone https://github.com/vmware/govmomi.git && cd govmomi
+git clone https://github.com/zhengkes/govmomi.git && cd govmomi
 
 # prevent accidentally pushing to vmware/govmomi
 git config push.default nothing

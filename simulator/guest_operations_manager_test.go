@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 func TestFileInfo(t *testing.T) {

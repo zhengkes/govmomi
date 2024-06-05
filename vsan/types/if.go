@@ -14,7 +14,7 @@ limitations under the License.
 package types
 
 import (
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 type VsanClusterConfigInfo types.VsanClusterConfigInfo

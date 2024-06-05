@@ -31,8 +31,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/vmware/govmomi/vim25/methods"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/methods"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 const ContainerBackingOptionKey = "RUN.container"

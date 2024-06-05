@@ -20,10 +20,10 @@ import (
 	"context"
 	"flag"
 
-	"github.com/vmware/govmomi/find"
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/find"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/flags"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 type destroy struct {

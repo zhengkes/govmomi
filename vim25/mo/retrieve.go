@@ -20,9 +20,9 @@ import (
 	"context"
 	"reflect"
 
-	"github.com/vmware/govmomi/vim25/methods"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/methods"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 func ignoreMissingProperty(ref types.ManagedObjectReference, p types.MissingProperty) bool {
@@ -30,7 +30,7 @@ func ignoreMissingProperty(ref types.ManagedObjectReference, p types.MissingProp
 	case "VirtualMachine":
 		switch p.Path {
 		case "environmentBrowser":
-			// See https://github.com/vmware/govmomi/pull/242
+			// See https://github.com/zhengkes/govmomi/pull/242
 			return true
 		case "alarmActionsEnabled":
 			// Seen with vApp child VM

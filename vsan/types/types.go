@@ -17,7 +17,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 type VsanPerfDiagnose VsanPerfDiagnoseRequestType

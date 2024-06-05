@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/vmware/govmomi/find"
-	"github.com/vmware/govmomi/object"
+	"github.com/zhengkes/govmomi/find"
+	"github.com/zhengkes/govmomi/object"
 )
 
 type ResourcePoolFlag struct {

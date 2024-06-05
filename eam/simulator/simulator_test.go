@@ -26,19 +26,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vmware/govmomi/eam"
-	"github.com/vmware/govmomi/eam/object"
-	"github.com/vmware/govmomi/eam/types"
-	"github.com/vmware/govmomi/find"
-	vimobject "github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/session"
-	vcsim "github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
-	vim "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/eam"
+	"github.com/zhengkes/govmomi/eam/object"
+	"github.com/zhengkes/govmomi/eam/types"
+	"github.com/zhengkes/govmomi/find"
+	vimobject "github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/session"
+	vcsim "github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	vim "github.com/zhengkes/govmomi/vim25/types"
 
 	// making sure the SDK endpoint is registered
-	_ "github.com/vmware/govmomi/eam/simulator"
+	_ "github.com/zhengkes/govmomi/eam/simulator"
 )
 
 const waitLoopMessage = `

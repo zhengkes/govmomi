@@ -21,9 +21,9 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/vmware/govmomi/test"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/test"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/soap"
 )
 
 func sessionClient(u *url.URL, t *testing.T) *Manager {

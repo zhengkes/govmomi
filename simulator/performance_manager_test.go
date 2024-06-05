@@ -22,11 +22,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/vmware/govmomi/performance"
-	"github.com/vmware/govmomi/simulator/esx"
-	"github.com/vmware/govmomi/simulator/vpx"
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/performance"
+	"github.com/zhengkes/govmomi/simulator/esx"
+	"github.com/zhengkes/govmomi/simulator/vpx"
+	"github.com/zhengkes/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 func testMetricsConsistency(counterInfo []types.PerfCounterInfo, ids [][]types.PerfMetricId) error {

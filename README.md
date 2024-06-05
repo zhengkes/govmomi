@@ -1,10 +1,10 @@
 <!-- markdownlint-disable first-line-h1 no-inline-html -->
 
-[![Build](https://github.com/vmware/govmomi/actions/workflows/govmomi-build.yaml/badge.svg)][ci-build]
-[![Tests](https://github.com/vmware/govmomi/actions/workflows/govmomi-go-tests.yaml/badge.svg)][ci-tests]
-[![Go Report Card](https://goreportcard.com/badge/github.com/vmware/govmomi)][go-report-card]
+[![Build](https://github.com/zhengkes/govmomi/actions/workflows/govmomi-build.yaml/badge.svg)][ci-build]
+[![Tests](https://github.com/zhengkes/govmomi/actions/workflows/govmomi-go-tests.yaml/badge.svg)][ci-tests]
+[![Go Report Card](https://goreportcard.com/badge/github.com/zhengkes/govmomi)][go-report-card]
 [![Latest Release](https://img.shields.io/github/release/vmware/govmomi.svg?logo=github&style=flat-square)][latest-release]
-[![Go Reference](https://pkg.go.dev/badge/github.com/vmware/govmomi.svg)][go-reference]
+[![Go Reference](https://pkg.go.dev/badge/github.com/zhengkes/govmomi.svg)][go-reference]
 [![go.mod Go version](https://img.shields.io/github/go-mod/go-version/vmware/govmomi)][go-version]
 
 # govmomi
@@ -86,17 +86,17 @@ Follows pyvmomi and rbvmomi: language prefix + the vSphere acronym "VM Object Ma
 
 [//]: Links
 
-[ci-build]: https://github.com/vmware/govmomi/actions/workflows/govmomi-build.yaml
-[ci-tests]: https://github.com/vmware/govmomi/actions/workflows/govmomi-go-tests.yaml
-[latest-release]: https://github.com/vmware/govmomi/releases/latest
+[ci-build]: https://github.com/zhengkes/govmomi/actions/workflows/govmomi-build.yaml
+[ci-tests]: https://github.com/zhengkes/govmomi/actions/workflows/govmomi-go-tests.yaml
+[latest-release]: https://github.com/zhengkes/govmomi/releases/latest
 [govc]: govc/README.md
-[govmomi-github-issues]: https://github.com/vmware/govmomi/issues
-[govmomi-github-discussions]: https://github.com/vmware/govmomi/discussions
+[govmomi-github-issues]: https://github.com/zhengkes/govmomi/issues
+[govmomi-github-discussions]: https://github.com/zhengkes/govmomi/discussions
 [govmomi-changelog]: CHANGELOG.md
 [govmomi-license]: LICENSE.txt
-[go-reference]: https://pkg.go.dev/github.com/vmware/govmomi
-[go-report-card]: https://goreportcard.com/report/github.com/vmware/govmomi
-[go-version]: https://github.com/vmware/govmomi
+[go-reference]: https://pkg.go.dev/github.com/zhengkes/govmomi
+[go-report-card]: https://goreportcard.com/report/github.com/zhengkes/govmomi
+[go-version]: https://github.com/zhengkes/govmomi
 [opentelemetry-collector-contrib]: https://github.com/open-telemetry/opentelemetry-collector-contrib
 [project-docker-linuxKit]: https://github.com/linuxkit/linuxkit/tree/master/src/cmd/linuxkit
 [project-elastic-agent]: https://github.com/elastic/integrations/tree/main/packages/vsphere
@@ -115,7 +115,7 @@ Follows pyvmomi and rbvmomi: language prefix + the vSphere acronym "VM Object Ma
 [project-vmware-vic]: https://github.com/vmware/vic
 [project-vmware-vsphere]: https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-esxi-vcenter-server-7-vsphere-with-kubernetes-release-notes.html
 [reference-api]: https://developer.vmware.com/apis/968/vsphere
-[reference-godoc]: http://godoc.org/github.com/vmware/govmomi
+[reference-godoc]: http://godoc.org/github.com/zhengkes/govmomi
 [reference-go-vmware-nsxt]: https://github.com/vmware/go-vmware-nsxt
 [reference-lifecycle]: https://lifecycle.vmware.com
 [reference-pyvmomi]: https://github.com/vmware/pyvmomi

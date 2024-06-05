@@ -37,10 +37,10 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/vmware/govmomi/sts/internal"
-	"github.com/vmware/govmomi/vim25/methods"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/xml"
+	"github.com/zhengkes/govmomi/sts/internal"
+	"github.com/zhengkes/govmomi/vim25/methods"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/xml"
 )
 
 // Signer implements the soap.Signer interface.

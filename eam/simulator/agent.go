@@ -23,15 +23,15 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/vmware/govmomi/simulator"
-	vimmethods "github.com/vmware/govmomi/vim25/methods"
-	"github.com/vmware/govmomi/vim25/soap"
-	vim "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/simulator"
+	vimmethods "github.com/zhengkes/govmomi/vim25/methods"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	vim "github.com/zhengkes/govmomi/vim25/types"
 
-	"github.com/vmware/govmomi/eam/internal"
-	"github.com/vmware/govmomi/eam/methods"
-	"github.com/vmware/govmomi/eam/mo"
-	"github.com/vmware/govmomi/eam/types"
+	"github.com/zhengkes/govmomi/eam/internal"
+	"github.com/zhengkes/govmomi/eam/methods"
+	"github.com/zhengkes/govmomi/eam/mo"
+	"github.com/zhengkes/govmomi/eam/types"
 )
 
 // Agenct is the vSphere ESX Agent Manager managed object responsible

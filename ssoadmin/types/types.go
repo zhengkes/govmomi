@@ -20,7 +20,7 @@ import (
 	"net/url"
 	"reflect"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 type AddCertificate AddCertificateRequestType

@@ -25,11 +25,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/sts"
-	"github.com/vmware/govmomi/sts/internal"
-	"github.com/vmware/govmomi/vim25/soap"
-	vim "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/sts"
+	"github.com/zhengkes/govmomi/sts/internal"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	vim "github.com/zhengkes/govmomi/vim25/types"
 )
 
 func init() {

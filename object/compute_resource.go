@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/methods"
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/property"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/methods"
+	"github.com/zhengkes/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 type ComputeResource struct {

@@ -21,10 +21,10 @@ import (
 	"log"
 	"testing"
 
-	"github.com/vmware/govmomi"
-	"github.com/vmware/govmomi/lookup"
-	"github.com/vmware/govmomi/lookup/types"
-	"github.com/vmware/govmomi/simulator"
+	"github.com/zhengkes/govmomi"
+	"github.com/zhengkes/govmomi/lookup"
+	"github.com/zhengkes/govmomi/lookup/types"
+	"github.com/zhengkes/govmomi/simulator"
 )
 
 func TestClient(t *testing.T) {

@@ -20,10 +20,10 @@ import (
 	"context"
 	"flag"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
-	govc "github.com/vmware/govmomi/govc/vm/dataset"
-	"github.com/vmware/govmomi/vapi/vm/dataset"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/flags"
+	govc "github.com/zhengkes/govmomi/govc/vm/dataset"
+	"github.com/zhengkes/govmomi/vapi/vm/dataset"
 )
 
 type set struct {

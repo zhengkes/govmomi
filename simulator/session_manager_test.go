@@ -23,15 +23,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/vmware/govmomi"
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/session"
-	"github.com/vmware/govmomi/simulator/vpx"
-	"github.com/vmware/govmomi/vim25/methods"
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi"
+	"github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/property"
+	"github.com/zhengkes/govmomi/session"
+	"github.com/zhengkes/govmomi/simulator/vpx"
+	"github.com/zhengkes/govmomi/vim25/methods"
+	"github.com/zhengkes/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 func isNotAuthenticated(err error) bool {

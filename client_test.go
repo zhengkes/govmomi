@@ -23,10 +23,10 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/vmware/govmomi/test"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/test"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 func TestNewClient(t *testing.T) {

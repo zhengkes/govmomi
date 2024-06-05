@@ -21,9 +21,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/vmware/govmomi"
-	"github.com/vmware/govmomi/find"
-	"github.com/vmware/govmomi/license"
+	"github.com/zhengkes/govmomi"
+	"github.com/zhengkes/govmomi/find"
+	"github.com/zhengkes/govmomi/license"
 )
 
 func TestLicenseManagerVPX(t *testing.T) {

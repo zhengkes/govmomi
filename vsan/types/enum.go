@@ -16,7 +16,7 @@ package types
 import (
 	"reflect"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 type VsanPerfDiagnosticQueryType string

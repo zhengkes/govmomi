@@ -23,8 +23,8 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/vmware/govmomi/vapi/rest"
-	"github.com/vmware/govmomi/vapi/vm/internal"
+	"github.com/zhengkes/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/vapi/vm/internal"
 )
 
 // Manager extends rest.Client, adding data set related methods.

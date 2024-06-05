@@ -24,8 +24,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/metric"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/metric"
 )
 
 type info struct {

@@ -36,7 +36,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/vmware/govmomi/toolbox"
+	"github.com/zhengkes/govmomi/toolbox"
 )
 
 // This example can be run on a VM hosted by ESX, Fusion or Workstation

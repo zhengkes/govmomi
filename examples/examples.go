@@ -25,10 +25,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/vmware/govmomi/session/cache"
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/session/cache"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/soap"
 )
 
 // getEnvString returns string from environment variable.

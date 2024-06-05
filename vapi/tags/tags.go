@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/vmware/govmomi/vapi/internal"
-	"github.com/vmware/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/vapi/internal"
+	"github.com/zhengkes/govmomi/vapi/rest"
 )
 
 // Manager extends rest.Client, adding tag related methods.

@@ -21,10 +21,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/ssoadmin"
-	"github.com/vmware/govmomi/sts"
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/govc/flags"
+	"github.com/zhengkes/govmomi/ssoadmin"
+	"github.com/zhengkes/govmomi/sts"
+	"github.com/zhengkes/govmomi/vim25/soap"
 )
 
 func WithClient(ctx context.Context, cmd *flags.ClientFlag, f func(*ssoadmin.Client) error) error {

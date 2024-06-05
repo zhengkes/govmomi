@@ -20,12 +20,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/performance"
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/view"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/performance"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/view"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 func ExampleManager_ToMetricSeries() {

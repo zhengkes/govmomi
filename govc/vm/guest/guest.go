@@ -22,10 +22,10 @@ import (
 	"flag"
 	"net/url"
 
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/guest"
-	"github.com/vmware/govmomi/guest/toolbox"
-	"github.com/vmware/govmomi/object"
+	"github.com/zhengkes/govmomi/govc/flags"
+	"github.com/zhengkes/govmomi/guest"
+	"github.com/zhengkes/govmomi/guest/toolbox"
+	"github.com/zhengkes/govmomi/object"
 )
 
 type GuestFlag struct {

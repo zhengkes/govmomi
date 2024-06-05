@@ -22,14 +22,14 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vapi/rest"
-	"github.com/vmware/govmomi/vapi/vcenter/consumptiondomains/associations"
-	"github.com/vmware/govmomi/vapi/vcenter/consumptiondomains/zones"
-	"github.com/vmware/govmomi/vim25"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/vapi/vcenter/consumptiondomains/associations"
+	"github.com/zhengkes/govmomi/vapi/vcenter/consumptiondomains/zones"
+	"github.com/zhengkes/govmomi/vim25"
 
-	_ "github.com/vmware/govmomi/vapi/simulator"
-	_ "github.com/vmware/govmomi/vapi/vcenter/consumptiondomains/simulator"
+	_ "github.com/zhengkes/govmomi/vapi/simulator"
+	_ "github.com/zhengkes/govmomi/vapi/vcenter/consumptiondomains/simulator"
 )
 
 func TestConsumptionDomains(t *testing.T) {

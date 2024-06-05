@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/vmware/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/cli"
 )
 
 type ls struct {

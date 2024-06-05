@@ -20,7 +20,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/vmware/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/vapi/rest"
 )
 
 const applianceProxyConfigPath = "/appliance/networking/proxy"

@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/performance"
+	"github.com/zhengkes/govmomi/govc/flags"
+	"github.com/zhengkes/govmomi/performance"
 )
 
 type PerformanceFlag struct {

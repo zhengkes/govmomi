@@ -17,7 +17,7 @@ limitations under the License.
 package mo
 
 import (
-	"github.com/vmware/govmomi/eam/types"
+	"github.com/zhengkes/govmomi/eam/types"
 )
 
 // Agent is the vSphere ESX Agent Manager managed object responsible

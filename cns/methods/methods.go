@@ -19,8 +19,8 @@ package methods
 import (
 	"context"
 
-	"github.com/vmware/govmomi/cns/types"
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/cns/types"
+	"github.com/zhengkes/govmomi/vim25/soap"
 )
 
 type CnsCreateVolumeBody struct {

@@ -17,7 +17,7 @@ limitations under the License.
 package mo
 
 import (
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 type CnsVolumeManager struct {

@@ -17,8 +17,8 @@ limitations under the License.
 package soap
 
 import (
-	"github.com/vmware/govmomi/vim25/types"
-	"github.com/vmware/govmomi/vim25/xml"
+	"github.com/zhengkes/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/xml"
 )
 
 // Header includes optional soap Header fields.

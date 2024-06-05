@@ -1,4 +1,4 @@
-module github.com/vmware/govmomi-tools
+module github.com/zhengkes/govmomi-tools
 
 go 1.17
 

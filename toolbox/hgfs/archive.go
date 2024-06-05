@@ -31,7 +31,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/vmware/govmomi/toolbox/vix"
+	"github.com/zhengkes/govmomi/toolbox/vix"
 )
 
 // ArchiveScheme is the default scheme used to register the archive FileHandler

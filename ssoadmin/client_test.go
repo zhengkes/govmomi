@@ -23,13 +23,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	lsim "github.com/vmware/govmomi/lookup/simulator"
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/ssoadmin"
-	_ "github.com/vmware/govmomi/ssoadmin/simulator"
-	"github.com/vmware/govmomi/ssoadmin/types"
-	_ "github.com/vmware/govmomi/sts/simulator"
-	"github.com/vmware/govmomi/vim25"
+	lsim "github.com/zhengkes/govmomi/lookup/simulator"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/ssoadmin"
+	_ "github.com/zhengkes/govmomi/ssoadmin/simulator"
+	"github.com/zhengkes/govmomi/ssoadmin/types"
+	_ "github.com/zhengkes/govmomi/sts/simulator"
+	"github.com/zhengkes/govmomi/vim25"
 )
 
 func TestClient(t *testing.T) {

@@ -23,10 +23,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/ovf"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/govc/flags"
+	"github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/ovf"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 type KeyValue struct {

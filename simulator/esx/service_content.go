@@ -16,7 +16,7 @@ limitations under the License.
 
 package esx
 
-import "github.com/vmware/govmomi/vim25/types"
+import "github.com/zhengkes/govmomi/vim25/types"
 
 // ServiceContent is the default template for the ServiceInstance content property.
 // Capture method:

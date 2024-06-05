@@ -17,7 +17,7 @@ limitations under the License.
 package simulator
 
 import (
-	"github.com/vmware/govmomi/vapi/vm/dataset"
+	"github.com/zhengkes/govmomi/vapi/vm/dataset"
 )
 
 type DataSet struct {

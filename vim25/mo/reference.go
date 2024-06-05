@@ -16,7 +16,7 @@ limitations under the License.
 
 package mo
 
-import "github.com/vmware/govmomi/vim25/types"
+import "github.com/zhengkes/govmomi/vim25/types"
 
 // Reference is the interface that is implemented by all the managed objects
 // defined in this package. It specifies that these managed objects have a

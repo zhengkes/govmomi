@@ -21,7 +21,7 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/vmware/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/cli"
 )
 
 func TestMain(t *testing.T) {

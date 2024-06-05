@@ -19,9 +19,9 @@ package task
 import (
 	"context"
 
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/vim25/progress"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/property"
+	"github.com/zhengkes/govmomi/vim25/progress"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 type taskProgress struct {

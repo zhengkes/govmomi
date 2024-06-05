@@ -23,13 +23,13 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/vmware/govmomi/cns"
-	"github.com/vmware/govmomi/cns/methods"
-	cnstypes "github.com/vmware/govmomi/cns/types"
-	pbmtypes "github.com/vmware/govmomi/pbm/types"
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vim25/soap"
-	vim25types "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/cns"
+	"github.com/zhengkes/govmomi/cns/methods"
+	cnstypes "github.com/zhengkes/govmomi/cns/types"
+	pbmtypes "github.com/zhengkes/govmomi/pbm/types"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	vim25types "github.com/zhengkes/govmomi/vim25/types"
 )
 
 func init() {

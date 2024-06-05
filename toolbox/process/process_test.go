@@ -30,7 +30,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vmware/govmomi/toolbox/vix"
+	"github.com/zhengkes/govmomi/toolbox/vix"
 )
 
 func TestProcessFunction(t *testing.T) {

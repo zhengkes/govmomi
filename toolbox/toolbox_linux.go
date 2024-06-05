@@ -23,7 +23,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/vmware/govmomi/toolbox/vix"
+	"github.com/zhengkes/govmomi/toolbox/vix"
 )
 
 func fileExtendedInfoFormat(dir string, info os.FileInfo) string {

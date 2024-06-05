@@ -17,8 +17,8 @@ limitations under the License.
 package esx
 
 import (
-	"github.com/vmware/govmomi/units"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/units"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // HostConfigInfo is the default template for the HostSystem config property.

@@ -21,9 +21,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/vmware/govmomi"
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi"
+	"github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 func TestCustomFieldsManager(t *testing.T) {

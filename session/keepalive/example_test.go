@@ -22,11 +22,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/vmware/govmomi/session"
-	"github.com/vmware/govmomi/session/keepalive"
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vapi/rest"
-	"github.com/vmware/govmomi/vim25"
+	"github.com/zhengkes/govmomi/session"
+	"github.com/zhengkes/govmomi/session/keepalive"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/vim25"
 )
 
 var (

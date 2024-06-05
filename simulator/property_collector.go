@@ -28,13 +28,13 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/simulator/internal"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/methods"
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/simulator/internal"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/methods"
+	"github.com/zhengkes/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 type PropertyCollector struct {

@@ -16,7 +16,7 @@ limitations under the License.
 
 package task
 
-import "github.com/vmware/govmomi/vim25/types"
+import "github.com/zhengkes/govmomi/vim25/types"
 
 type Error struct {
 	*types.LocalizedMethodFault

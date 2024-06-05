@@ -22,11 +22,11 @@ import (
 	"math/rand"
 	"regexp"
 
-	"github.com/vmware/govmomi/eam/types"
-	vimobj "github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/simulator"
-	vimmo "github.com/vmware/govmomi/vim25/mo"
-	vim "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/eam/types"
+	vimobj "github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/simulator"
+	vimmo "github.com/zhengkes/govmomi/vim25/mo"
+	vim "github.com/zhengkes/govmomi/vim25/types"
 )
 
 var (

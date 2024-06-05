@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/vmware/govmomi/vim25/types"
-	vsanfstypes "github.com/vmware/govmomi/vsan/vsanfs/types"
+	"github.com/zhengkes/govmomi/vim25/types"
+	vsanfstypes "github.com/zhengkes/govmomi/vsan/vsanfs/types"
 )
 
 type CnsCreateVolumeRequestType struct {

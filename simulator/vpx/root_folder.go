@@ -17,8 +17,8 @@ limitations under the License.
 package vpx
 
 import (
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 var RootFolder = mo.Folder{

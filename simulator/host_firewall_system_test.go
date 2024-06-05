@@ -20,8 +20,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/simulator/esx"
+	"github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/simulator/esx"
 )
 
 func TestHostFirewallSystem(t *testing.T) {

@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // VirtualMachine should implement the Reference interface.

@@ -19,8 +19,8 @@ package methods
 import (
 	"context"
 
-	"github.com/vmware/govmomi/lookup/types"
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/lookup/types"
+	"github.com/zhengkes/govmomi/vim25/soap"
 )
 
 type CreateBody struct {

@@ -17,8 +17,8 @@ limitations under the License.
 package eam
 
 import (
-	"github.com/vmware/govmomi/eam/internal"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/eam/internal"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 var EsxAgentManager = types.ManagedObjectReference{

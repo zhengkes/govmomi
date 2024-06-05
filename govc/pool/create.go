@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/vmware/govmomi/find"
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
+	"github.com/zhengkes/govmomi/find"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/flags"
 )
 
 type create struct {

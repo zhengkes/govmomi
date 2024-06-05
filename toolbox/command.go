@@ -29,9 +29,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/vmware/govmomi/toolbox/hgfs"
-	"github.com/vmware/govmomi/toolbox/process"
-	"github.com/vmware/govmomi/toolbox/vix"
+	"github.com/zhengkes/govmomi/toolbox/hgfs"
+	"github.com/zhengkes/govmomi/toolbox/process"
+	"github.com/zhengkes/govmomi/toolbox/vix"
 )
 
 type CommandHandler func(vix.CommandRequestHeader, []byte) ([]byte, error)

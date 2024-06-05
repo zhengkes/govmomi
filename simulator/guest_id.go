@@ -16,7 +16,7 @@ limitations under the License.
 
 package simulator
 
-import "github.com/vmware/govmomi/vim25/types"
+import "github.com/zhengkes/govmomi/vim25/types"
 
 // GuestID is the list of valid types.VirtualMachineGuestOsIdentifier
 var GuestID = types.VirtualMachineGuestOsIdentifier("").Values()

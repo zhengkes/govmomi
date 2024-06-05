@@ -25,9 +25,9 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/vmware/govmomi/cns/types"
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
+	"github.com/zhengkes/govmomi/cns/types"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/flags"
 )
 
 type ls struct {

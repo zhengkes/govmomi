@@ -22,12 +22,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vapi/rest"
-	"github.com/vmware/govmomi/vapi/tags"
-	"github.com/vmware/govmomi/view"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/vapi/tags"
+	"github.com/zhengkes/govmomi/view"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/mo"
 )
 
 func TestManager_AttachMultipleTagsToObject(t *testing.T) {

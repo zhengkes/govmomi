@@ -60,11 +60,11 @@ import (
 	"context"
 	"net/url"
 
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/session"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/property"
+	"github.com/zhengkes/govmomi/session"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 type Client struct {

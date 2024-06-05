@@ -17,8 +17,8 @@ limitations under the License.
 package esx
 
 import (
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // Datacenter is the default template for Datacenter properties.

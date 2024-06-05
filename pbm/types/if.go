@@ -19,7 +19,7 @@ package types
 import (
 	"reflect"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 func (b *PbmCapabilityConstraints) GetPbmCapabilityConstraints() *PbmCapabilityConstraints { return b }

@@ -19,8 +19,8 @@ package task
 import (
 	"testing"
 
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // ensure task.Manager implements the mo.Reference interface

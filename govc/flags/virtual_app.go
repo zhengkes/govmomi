@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/vmware/govmomi/object"
+	"github.com/zhengkes/govmomi/object"
 )
 
 type VirtualAppFlag struct {

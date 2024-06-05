@@ -186,7 +186,7 @@ func TestOptionValueSerialization(t *testing.T) {
 		},
 		// during serialization we have no way to guess that a string is to be
 		// converted to uri. Using net.URL solves this. It is a breaking change.
-		// See https://github.com/vmware/govmomi/pull/3123
+		// See https://github.com/zhengkes/govmomi/pull/3123
 		// {
 		// 	name: "anyURI", // string
 		// 	wire: `{"_typeName": "OptionValue","key": "option1",

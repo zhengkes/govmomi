@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/vmware/govmomi/pbm/types"
+	"github.com/zhengkes/govmomi/pbm/types"
 )
 
 // A struct to capture pbm create spec details.

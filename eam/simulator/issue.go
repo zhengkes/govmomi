@@ -19,7 +19,7 @@ package simulator
 import (
 	"sync"
 
-	"github.com/vmware/govmomi/eam/types"
+	"github.com/zhengkes/govmomi/eam/types"
 )
 
 var (

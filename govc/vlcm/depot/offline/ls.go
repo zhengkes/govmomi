@@ -21,9 +21,9 @@ import (
 	"flag"
 	"io"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/vapi/esx/settings/depots"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/flags"
+	"github.com/zhengkes/govmomi/vapi/esx/settings/depots"
 )
 
 type lsResult map[string]depots.SettingsDepotsOfflineInfo

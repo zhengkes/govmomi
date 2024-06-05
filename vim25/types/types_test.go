@@ -23,7 +23,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/vmware/govmomi/vim25/xml"
+	"github.com/zhengkes/govmomi/vim25/xml"
 )
 
 func TestManagedObjectReference(t *testing.T) {
@@ -151,7 +151,7 @@ func TestVirtualMachineConfigSpec(t *testing.T) {
 }
 
 func TestVirtualMachineAffinityInfo(t *testing.T) {
-	// See https://github.com/vmware/govmomi/issues/1008
+	// See https://github.com/zhengkes/govmomi/issues/1008
 	in := VirtualMachineAffinityInfo{
 		AffinitySet: []int32{0, 1, 2, 3},
 	}

@@ -13,7 +13,7 @@ The Github Actions release [workflow](.github/workflows/govmomi-release.yaml)
 uses [`goreleaser`](http://goreleaser.com/) and automatically creates/pushes:
 
 - Release artifacts for `govc` and `vcsim` to the
-  [release](https://github.com/vmware/govmomi/releases) page, including
+  [release](https://github.com/zhengkes/govmomi/releases) page, including
   `LICENSE.txt`, `README` and `CHANGELOG`
 - Docker images for `vmware/govc` and `vmware/vcsim` to Docker Hub
 - Source code
@@ -34,7 +34,7 @@ git pull origin/main
 > **Warning**
 >
 > These steps assume `origin` to point to the remote
-> `https://github.com/vmware/govmomi`, respectively
+> `https://github.com/zhengkes/govmomi`, respectively
 > `git@github.com:vmware/govmomi`.
 
 ### Create a release branch
@@ -83,7 +83,7 @@ git push origin ${RELEASE_BRANCH}
 
 ### Create a release in the Github UI
 
-Open the `govmomi` Github [repository](https://github.com/vmware/govmomi) and
+Open the `govmomi` Github [repository](https://github.com/zhengkes/govmomi) and
 navigate to `Actions -> Workflows -> Release`.
 
 Click `Run Workflow` which opens a dropdown list.

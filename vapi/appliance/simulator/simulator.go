@@ -23,13 +23,13 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vapi/appliance/access/consolecli"
-	"github.com/vmware/govmomi/vapi/appliance/access/dcui"
-	"github.com/vmware/govmomi/vapi/appliance/access/shell"
-	"github.com/vmware/govmomi/vapi/appliance/access/ssh"
-	"github.com/vmware/govmomi/vapi/appliance/shutdown"
-	vapi "github.com/vmware/govmomi/vapi/simulator"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vapi/appliance/access/consolecli"
+	"github.com/zhengkes/govmomi/vapi/appliance/access/dcui"
+	"github.com/zhengkes/govmomi/vapi/appliance/access/shell"
+	"github.com/zhengkes/govmomi/vapi/appliance/access/ssh"
+	"github.com/zhengkes/govmomi/vapi/appliance/shutdown"
+	vapi "github.com/zhengkes/govmomi/vapi/simulator"
 )
 
 func init() {

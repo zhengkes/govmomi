@@ -20,8 +20,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // Ancestors returns the entire ancestry tree of a specified managed object.

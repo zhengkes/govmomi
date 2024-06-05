@@ -20,11 +20,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/vmware/govmomi/pbm/methods"
-	"github.com/vmware/govmomi/pbm/types"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
-	vim "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/pbm/methods"
+	"github.com/zhengkes/govmomi/pbm/types"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	vim "github.com/zhengkes/govmomi/vim25/types"
 )
 
 const (

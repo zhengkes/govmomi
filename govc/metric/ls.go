@@ -24,9 +24,9 @@ import (
 	"io"
 	"text/tabwriter"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/performance"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/performance"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 type ls struct {

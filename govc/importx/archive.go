@@ -30,10 +30,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/vmware/govmomi/ovf"
-	"github.com/vmware/govmomi/vapi/library"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/ovf"
+	"github.com/zhengkes/govmomi/vapi/library"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/soap"
 )
 
 // ArchiveFlag doesn't register any flags;

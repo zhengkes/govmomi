@@ -22,12 +22,12 @@ import (
 
 	"github.com/dougm/pretty"
 
-	"github.com/vmware/govmomi"
-	"github.com/vmware/govmomi/cns"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi"
+	"github.com/zhengkes/govmomi/cns"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/types"
 
-	cnstypes "github.com/vmware/govmomi/cns/types"
+	cnstypes "github.com/zhengkes/govmomi/cns/types"
 )
 
 func TestClient(t *testing.T) {

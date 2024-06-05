@@ -17,11 +17,11 @@ limitations under the License.
 package simulator
 
 import (
-	"github.com/vmware/govmomi/eam"
-	"github.com/vmware/govmomi/eam/types"
-	"github.com/vmware/govmomi/simulator"
-	vimmo "github.com/vmware/govmomi/vim25/mo"
-	vim "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/eam"
+	"github.com/zhengkes/govmomi/eam/types"
+	"github.com/zhengkes/govmomi/simulator"
+	vimmo "github.com/zhengkes/govmomi/vim25/mo"
+	vim "github.com/zhengkes/govmomi/vim25/types"
 )
 
 func init() {

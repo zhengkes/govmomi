@@ -20,12 +20,12 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/ssoadmin"
-	"github.com/vmware/govmomi/ssoadmin/methods"
-	"github.com/vmware/govmomi/ssoadmin/types"
-	"github.com/vmware/govmomi/vim25/soap"
-	vim "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/ssoadmin"
+	"github.com/zhengkes/govmomi/ssoadmin/methods"
+	"github.com/zhengkes/govmomi/ssoadmin/types"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	vim "github.com/zhengkes/govmomi/vim25/types"
 )
 
 func init() {

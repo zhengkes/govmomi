@@ -19,10 +19,10 @@ package simulator
 import (
 	"github.com/google/uuid"
 
-	"github.com/vmware/govmomi/lookup"
-	"github.com/vmware/govmomi/lookup/types"
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vim25"
+	"github.com/zhengkes/govmomi/lookup"
+	"github.com/zhengkes/govmomi/lookup/types"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vim25"
 )
 
 var (

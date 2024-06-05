@@ -20,9 +20,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/vmware/govmomi/vapi/library"
-	"github.com/vmware/govmomi/vapi/library/finder"
-	"github.com/vmware/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/vapi/library"
+	"github.com/zhengkes/govmomi/vapi/library/finder"
+	"github.com/zhengkes/govmomi/vapi/rest"
 )
 
 // errContentLibraryMatch is an error returned when a query returns more than one result.

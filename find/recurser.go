@@ -22,10 +22,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/vmware/govmomi/list"
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/list"
+	"github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/property"
+	"github.com/zhengkes/govmomi/vim25/mo"
 )
 
 // spec is used to specify per-search configuration, independent of the Finder instance.

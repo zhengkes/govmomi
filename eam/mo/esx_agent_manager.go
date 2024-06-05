@@ -17,7 +17,7 @@ limitations under the License.
 package mo
 
 import (
-	vim "github.com/vmware/govmomi/vim25/types"
+	vim "github.com/zhengkes/govmomi/vim25/types"
 )
 
 // EsxAgentManager is the main entry point for a solution to create

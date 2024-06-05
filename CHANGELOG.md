@@ -1,6 +1,6 @@
 
 <a name="v0.36.0"></a>
-## [Release v0.36.0](https://github.com/vmware/govmomi/compare/v0.35.0...v0.36.0)
+## [Release v0.36.0](https://github.com/zhengkes/govmomi/compare/v0.35.0...v0.36.0)
 
 > Release Date: 2024-03-07
 
@@ -40,7 +40,7 @@
 - [ef555e78]	Add  "AggregatedSnapshotCapacityInMb" to CnsSnapshotCreateResult and CnsSnapshotDeleteResult.
 
 <a name="v0.35.0"></a>
-## [Release v0.35.0](https://github.com/vmware/govmomi/compare/v0.34.2...v0.35.0)
+## [Release v0.35.0](https://github.com/zhengkes/govmomi/compare/v0.34.2...v0.35.0)
 
 > Release Date: 2024-02-12
 
@@ -69,7 +69,7 @@
 ### ⚠️ BREAKING
 
 json tag camelCase fixes [9ddfc534]:
-follow up to json tags missed in PR [#3007](https://github.com/vmware/govmomi/issues/3007) and PR [#3247](https://github.com/vmware/govmomi/issues/3247)
+follow up to json tags missed in PR [#3007](https://github.com/zhengkes/govmomi/issues/3007) and PR [#3247](https://github.com/zhengkes/govmomi/issues/3247)
 
 WaitForUpdatesEx & DestroyPropertyFilter [95aa2571]:
 The semantics around the helper functions in the
@@ -106,7 +106,7 @@ The semantics around the helper functions in the
 - [e9a9f2c0]	build(deps): bump chuhlomin/render-template from 1.8 to 1.9
 
 <a name="v0.34.2"></a>
-## [Release v0.34.2](https://github.com/vmware/govmomi/compare/v0.34.1...v0.34.2)
+## [Release v0.34.2](https://github.com/zhengkes/govmomi/compare/v0.34.1...v0.34.2)
 
 > Release Date: 2024-01-08
 
@@ -128,7 +128,7 @@ The semantics around the helper functions in the
 - [55924679]	Changes to fix xml tag used for SnapshotId
 
 <a name="v0.34.1"></a>
-## [Release v0.34.1](https://github.com/vmware/govmomi/compare/v0.34.0...v0.34.1)
+## [Release v0.34.1](https://github.com/zhengkes/govmomi/compare/v0.34.0...v0.34.1)
 
 > Release Date: 2023-12-19
 
@@ -144,7 +144,7 @@ The semantics around the helper functions in the
 - [dd8bbb4d]	Changes to add CNS fault CnsSnapshotCreatedFault
 
 <a name="v0.34.0"></a>
-## [Release v0.34.0](https://github.com/vmware/govmomi/compare/v0.33.1...v0.34.0)
+## [Release v0.34.0](https://github.com/zhengkes/govmomi/compare/v0.33.1...v0.34.0)
 
 > Release Date: 2023-12-12
 
@@ -194,7 +194,7 @@ The semantics around the helper functions in the
 - [09c72919]	Add additional PBM methods
 
 <a name="v0.33.1"></a>
-## [Release v0.33.1](https://github.com/vmware/govmomi/compare/v0.33.0...v0.33.1)
+## [Release v0.33.1](https://github.com/zhengkes/govmomi/compare/v0.33.0...v0.33.1)
 
 > Release Date: 2023-10-30
 
@@ -205,7 +205,7 @@ The semantics around the helper functions in the
 - [6de69ad0]	Add additional PBM methods
 
 <a name="v0.33.0"></a>
-## [Release v0.33.0](https://github.com/vmware/govmomi/compare/v0.32.0...v0.33.0)
+## [Release v0.33.0](https://github.com/zhengkes/govmomi/compare/v0.32.0...v0.33.0)
 
 > Release Date: 2023-10-25
 
@@ -245,7 +245,7 @@ api: view.ListView.{Add,Remove,Reset} methods now return unresolved references
 - [675eebd2]	chore: remove refs to deprecated io/ioutil
 
 <a name="v0.32.0"></a>
-## [Release v0.32.0](https://github.com/vmware/govmomi/compare/v0.31.0...v0.32.0)
+## [Release v0.32.0](https://github.com/zhengkes/govmomi/compare/v0.31.0...v0.32.0)
 
 > Release Date: 2023-09-28
 
@@ -300,7 +300,7 @@ removed object.VirtualMachine.QueryConfigTarget method
 - [d49e401e]	vcsim: set HostSystem.Config.Host
 
 <a name="v0.31.0"></a>
-## [Release v0.31.0](https://github.com/vmware/govmomi/compare/v0.30.7...v0.31.0)
+## [Release v0.31.0](https://github.com/zhengkes/govmomi/compare/v0.30.7...v0.31.0)
 
 > Release Date: 2023-09-25
 
@@ -319,7 +319,7 @@ removed object.VirtualMachine.QueryConfigTarget method
 - [93cb079b]	byte, float and int (de) serialization
 - [8bc2caa1]	avoid govc -verbose flag panic if an UpdateSet is nil
 - [9ba1b852]	include StoragePod Datastore children in ContainerView
-- [8b00a93f]	only limit the number of samples generated to maxSample when maxSample is greater than 0 and the number of samples to generate is greater than maxSample Closes: [#3097](https://github.com/vmware/govmomi/issues/3097)
+- [8b00a93f]	only limit the number of samples generated to maxSample when maxSample is greater than 0 and the number of samples to generate is greater than maxSample Closes: [#3097](https://github.com/zhengkes/govmomi/issues/3097)
 - [4ed07633]	support govc ls -xml flag
 - [8554329c]	Pin the result limit of ssoadmin client to its MAX
 
@@ -588,7 +588,7 @@ as `jq`, will need to be updated to use the new camelCased fields.
 - [65b6c51f]	vcsim: add lookup.EndpointURL tests
 - [c460f706]	chore: Dockerfile & steps for generating types
 - [4cf0b760]	Allow picking datastore upload URL scheme by env
-- [319e4723]	build: quote golang version in release file to workaround issue in github action Close [#3179](https://github.com/vmware/govmomi/issues/3179)
+- [319e4723]	build: quote golang version in release file to workaround issue in github action Close [#3179](https://github.com/zhengkes/govmomi/issues/3179)
 - [65814f0c]	fix: Update some goreleaser deprecated fields
 - [b4eac193]	fix: check the error chain when validating if it's x509 error
 - [cd9446c7]	vcsim: apply PCI UnitNumber offset of 7 for ethernet
@@ -625,7 +625,7 @@ as `jq`, will need to be updated to use the new camelCased fields.
 - [8bc2caa1]	fix: avoid govc -verbose flag panic if an UpdateSet is nil
 - [78a979c9]	vcsim: Add CSV format support to QueryPerf API
 - [9ba1b852]	fix: include StoragePod Datastore children in ContainerView
-- [8b00a93f]	fix: only limit the number of samples generated to maxSample when maxSample is greater than 0 and the number of samples to generate is greater than maxSample Closes: [#3097](https://github.com/vmware/govmomi/issues/3097)
+- [8b00a93f]	fix: only limit the number of samples generated to maxSample when maxSample is greater than 0 and the number of samples to generate is greater than maxSample Closes: [#3097](https://github.com/zhengkes/govmomi/issues/3097)
 - [25865e57]	api: set inventory path in SearchIndex.FindByInventoryPath
 - [c6005086]	chore: Err on json.Decode for invalid type/vals
 - [5a2fa4fd]	build(deps): bump nokogiri from 1.13.10 to 1.14.3 in /gen
@@ -679,7 +679,7 @@ as `jq`, will need to be updated to use the new camelCased fields.
 - [9bd958aa]	build(deps): bump nokogiri from 1.13.9 to 1.13.10 in /gen
 
 <a name="v0.30.7"></a>
-## [Release v0.30.7](https://github.com/vmware/govmomi/compare/v0.30.6...v0.30.7)
+## [Release v0.30.7](https://github.com/zhengkes/govmomi/compare/v0.30.6...v0.30.7)
 
 > Release Date: 2023-08-04
 
@@ -703,11 +703,11 @@ as `jq`, will need to be updated to use the new camelCased fields.
 - [46fd9d2d]	chore: Update version.go for v0.30.7
 - [3dac2e7d]	vcsim: Fix RefreshDatastore to return a valid response
 - [fe7a0ac2]	vcsim: add PerformanceManager counter values
-- [552dfab2]	build: quote golang version in release file to workaround issue in github action Close [#3179](https://github.com/vmware/govmomi/issues/3179)
+- [552dfab2]	build: quote golang version in release file to workaround issue in github action Close [#3179](https://github.com/zhengkes/govmomi/issues/3179)
 - [cd0c259a]	fix: Update some goreleaser deprecated fields
 
 <a name="v0.30.6"></a>
-## [Release v0.30.6](https://github.com/vmware/govmomi/compare/v0.30.5...v0.30.6)
+## [Release v0.30.6](https://github.com/zhengkes/govmomi/compare/v0.30.5...v0.30.6)
 
 > Release Date: 2023-07-17
 
@@ -738,7 +738,7 @@ as `jq`, will need to be updated to use the new camelCased fields.
 - [64aafeb9]	chore: Update CI to Go 1.20
 
 <a name="v0.30.5"></a>
-## [Release v0.30.5](https://github.com/vmware/govmomi/compare/v0.30.4...v0.30.5)
+## [Release v0.30.5](https://github.com/zhengkes/govmomi/compare/v0.30.4...v0.30.5)
 
 > Release Date: 2023-06-27
 
@@ -746,7 +746,7 @@ as `jq`, will need to be updated to use the new camelCased fields.
 
 - [03aa9dca]	avoid govc -verbose flag panic if an UpdateSet is nil
 - [b366e940]	include StoragePod Datastore children in ContainerView
-- [ae6efc9f]	only limit the number of samples generated to maxSample when maxSample is greater than 0 and the number of samples to generate is greater than maxSample Closes: [#3097](https://github.com/vmware/govmomi/issues/3097)
+- [ae6efc9f]	only limit the number of samples generated to maxSample when maxSample is greater than 0 and the number of samples to generate is greater than maxSample Closes: [#3097](https://github.com/zhengkes/govmomi/issues/3097)
 - [b1290083]	support govc ls -xml flag
 
 ### 💡 Examples
@@ -788,7 +788,7 @@ as `jq`, will need to be updated to use the new camelCased fields.
 - [03aa9dca]	fix: avoid govc -verbose flag panic if an UpdateSet is nil
 - [04737364]	vcsim: Add CSV format support to QueryPerf API
 - [b366e940]	fix: include StoragePod Datastore children in ContainerView
-- [ae6efc9f]	fix: only limit the number of samples generated to maxSample when maxSample is greater than 0 and the number of samples to generate is greater than maxSample Closes: [#3097](https://github.com/vmware/govmomi/issues/3097)
+- [ae6efc9f]	fix: only limit the number of samples generated to maxSample when maxSample is greater than 0 and the number of samples to generate is greater than maxSample Closes: [#3097](https://github.com/zhengkes/govmomi/issues/3097)
 - [afd45d68]	api: set inventory path in SearchIndex.FindByInventoryPath
 - [16a58c2f]	Make mounting DMI information optional with docker-backed vcsim
 - [b1290083]	fix: support govc ls -xml flag
@@ -798,7 +798,7 @@ as `jq`, will need to be updated to use the new camelCased fields.
 - [d46fe80a]	vcsim: add ssoadmin user and group management
 
 <a name="v0.30.4"></a>
-## [Release v0.30.4](https://github.com/vmware/govmomi/compare/v0.30.3...v0.30.4)
+## [Release v0.30.4](https://github.com/zhengkes/govmomi/compare/v0.30.3...v0.30.4)
 
 > Release Date: 2023-03-16
 
@@ -825,7 +825,7 @@ as `jq`, will need to be updated to use the new camelCased fields.
 - [f4f6a5a7]	api: support find.NetworkList by ID
 
 <a name="v0.30.3"></a>
-## [Release v0.30.3](https://github.com/vmware/govmomi/compare/v0.30.2...v0.30.3)
+## [Release v0.30.3](https://github.com/zhengkes/govmomi/compare/v0.30.2...v0.30.3)
 
 > Release Date: 2023-03-16
 
@@ -840,7 +840,7 @@ as `jq`, will need to be updated to use the new camelCased fields.
 - [0d36cdc9]	chore: Update version.go for v0.30.3
 
 <a name="v0.30.2"></a>
-## [Release v0.30.2](https://github.com/vmware/govmomi/compare/v0.30.1...v0.30.2)
+## [Release v0.30.2](https://github.com/zhengkes/govmomi/compare/v0.30.1...v0.30.2)
 
 > Release Date: 2023-02-01
 
@@ -865,7 +865,7 @@ as `jq`, will need to be updated to use the new camelCased fields.
 - [4136fd8e]	fix: Pin the result limit of ssoadmin client to its MAX
 
 <a name="v0.30.1"></a>
-## [Release v0.30.1](https://github.com/vmware/govmomi/compare/v0.30.0...v0.30.1)
+## [Release v0.30.1](https://github.com/zhengkes/govmomi/compare/v0.30.0...v0.30.1)
 
 > Release Date: 2023-01-28
 
@@ -882,7 +882,7 @@ as `jq`, will need to be updated to use the new camelCased fields.
 - [fee275a6]	lookup.EndpointURL should only save thumbprints for endpoints outside of vCenter
 
 <a name="v0.30.0"></a>
-## [Release v0.30.0](https://github.com/vmware/govmomi/compare/v0.29.0...v0.30.0)
+## [Release v0.30.0](https://github.com/zhengkes/govmomi/compare/v0.29.0...v0.30.0)
 
 > Release Date: 2022-12-12
 
@@ -990,7 +990,7 @@ as `jq`, will need to be updated to use the new camelCased fields.
 - [b44828a4]	vcsim: Fix datastore freespace changed by ReconfigVM_Task
 
 <a name="v0.29.0"></a>
-## [Release v0.29.0](https://github.com/vmware/govmomi/compare/v0.28.5...v0.29.0)
+## [Release v0.29.0](https://github.com/zhengkes/govmomi/compare/v0.28.5...v0.29.0)
 
 > Release Date: 2022-07-06
 
@@ -1034,7 +1034,7 @@ as `jq`, will need to be updated to use the new camelCased fields.
 - [37b3b24c]	fix: avoid possible panic in govc metric commands
 
 <a name="v0.28.5"></a>
-## [Release v0.28.5](https://github.com/vmware/govmomi/compare/v0.28.4...v0.28.5)
+## [Release v0.28.5](https://github.com/zhengkes/govmomi/compare/v0.28.4...v0.28.5)
 
 > Release Date: 2022-09-30
 
@@ -1044,7 +1044,7 @@ as `jq`, will need to be updated to use the new camelCased fields.
 
 
 <a name="v0.28.4"></a>
-## [Release v0.28.4](https://github.com/vmware/govmomi/compare/v0.28.3...v0.28.4)
+## [Release v0.28.4](https://github.com/zhengkes/govmomi/compare/v0.28.3...v0.28.4)
 
 > Release Date: 2022-10-01
 
@@ -1054,7 +1054,7 @@ as `jq`, will need to be updated to use the new camelCased fields.
 
 
 <a name="v0.28.3"></a>
-## [Release v0.28.3](https://github.com/vmware/govmomi/compare/v0.28.1...v0.28.3)
+## [Release v0.28.3](https://github.com/zhengkes/govmomi/compare/v0.28.1...v0.28.3)
 
 > Release Date: 2022-09-30
 
@@ -1114,7 +1114,7 @@ as `jq`, will need to be updated to use the new camelCased fields.
 - [7eef76c3]	build(deps): bump nokogiri from 1.13.4 to 1.13.5 in /gen
 - [515ca29f]	govc: Use unique searchFlagKey when calling NewSearchFlag
 - [9d4ca658]	govc: add library.deploy '-config' flag
-- [c5ebd552]	fix:fail to add ssd disk into allflash disk group Closes: [#2846](https://github.com/vmware/govmomi/issues/2846)
+- [c5ebd552]	fix:fail to add ssd disk into allflash disk group Closes: [#2846](https://github.com/zhengkes/govmomi/issues/2846)
 - [88f48e02]	Updated USAGE.md
 - [3325da0c]	vcsim: add content library VmConfigSpec support
 - [ca7ee510]	api: add VmConfigSpec field to content library DeploymentSpec
@@ -1125,7 +1125,7 @@ as `jq`, will need to be updated to use the new camelCased fields.
 - [11f2d453]	govc: Edit disk storage IO
 
 <a name="v0.28.1"></a>
-## [Release v0.28.1](https://github.com/vmware/govmomi/compare/v0.28.0...v0.28.1)
+## [Release v0.28.1](https://github.com/zhengkes/govmomi/compare/v0.28.0...v0.28.1)
 
 > Release Date: 2023-01-27
 
@@ -1142,7 +1142,7 @@ as `jq`, will need to be updated to use the new camelCased fields.
 - [8d43c82c]	correct SetControlFlags and ClearControlFlags APIs
 
 <a name="v0.28.0"></a>
-## [Release v0.28.0](https://github.com/vmware/govmomi/compare/v0.27.5...v0.28.0)
+## [Release v0.28.0](https://github.com/zhengkes/govmomi/compare/v0.27.5...v0.28.0)
 
 > Release Date: 2022-04-27
 
@@ -1330,7 +1330,7 @@ in `vcsim` are not changed.
 - [bb4f739b]	Support finding Portgroups by ID in Finder.Network
 
 <a name="v0.27.5"></a>
-## [Release v0.27.5](https://github.com/vmware/govmomi/compare/v0.27.4...v0.27.5)
+## [Release v0.27.5](https://github.com/zhengkes/govmomi/compare/v0.27.4...v0.27.5)
 
 > Release Date: 2022-06-02
 
@@ -1346,7 +1346,7 @@ in `vcsim` are not changed.
 - [f8cf9ef7]	correct SetControlFlags and ClearControlFlags APIs
 
 <a name="v0.27.4"></a>
-## [Release v0.27.4](https://github.com/vmware/govmomi/compare/v0.27.3...v0.27.4)
+## [Release v0.27.4](https://github.com/zhengkes/govmomi/compare/v0.27.3...v0.27.4)
 
 > Release Date: 2022-02-10
 
@@ -1373,7 +1373,7 @@ in `vcsim` are not changed.
 - [cbc68fc0]	fix: rest.Client.LoginByToken invalid signature
 
 <a name="v0.27.3"></a>
-## [Release v0.27.3](https://github.com/vmware/govmomi/compare/v0.27.2...v0.27.3)
+## [Release v0.27.3](https://github.com/zhengkes/govmomi/compare/v0.27.2...v0.27.3)
 
 > Release Date: 2022-02-01
 
@@ -1389,7 +1389,7 @@ in `vcsim` are not changed.
 - [2d7cd133]	fix: Add IPv6 support for signing HTTP request
 
 <a name="v0.27.2"></a>
-## [Release v0.27.2](https://github.com/vmware/govmomi/compare/v0.27.1...v0.27.2)
+## [Release v0.27.2](https://github.com/zhengkes/govmomi/compare/v0.27.1...v0.27.2)
 
 > Release Date: 2021-11-23
 
@@ -1404,7 +1404,7 @@ in `vcsim` are not changed.
 - [f04d77d6]	fix: avoid possible panic in HostSystem.ManagementIPs
 
 <a name="v0.27.1"></a>
-## [Release v0.27.1](https://github.com/vmware/govmomi/compare/v0.27.0...v0.27.1)
+## [Release v0.27.1](https://github.com/zhengkes/govmomi/compare/v0.27.0...v0.27.1)
 
 > Release Date: 2021-10-20
 
@@ -1415,7 +1415,7 @@ in `vcsim` are not changed.
 - [6209be5b]	Support finding Portgroups by ID in Finder.Network
 
 <a name="v0.27.0"></a>
-## [Release v0.27.0](https://github.com/vmware/govmomi/compare/v0.26.2...v0.27.0)
+## [Release v0.27.0](https://github.com/zhengkes/govmomi/compare/v0.26.2...v0.27.0)
 
 > Release Date: 2021-10-14
 
@@ -1493,7 +1493,7 @@ the task manager implementation.
 - [2fcae372]	govc: add vsan info and change commands
 
 <a name="v0.26.2"></a>
-## [Release v0.26.2](https://github.com/vmware/govmomi/compare/v0.26.1...v0.26.2)
+## [Release v0.26.2](https://github.com/zhengkes/govmomi/compare/v0.26.1...v0.26.2)
 
 > Release Date: 2022-03-21
 
@@ -1510,13 +1510,13 @@ the task manager implementation.
 - [566d2ac1]	fix: avoid use of vNIC IP in guest.TransferURL if there are multiple
 
 <a name="v0.26.1"></a>
-## [Release v0.26.1](https://github.com/vmware/govmomi/compare/v0.26.0...v0.26.1)
+## [Release v0.26.1](https://github.com/zhengkes/govmomi/compare/v0.26.0...v0.26.1)
 
 > Release Date: 2021-08-16
 
 ### 🐞 Fix
 
-- [a366e352]	Regenerated interface and type to include BaseAgencyConfigInfo. Closes: [#2545](https://github.com/vmware/govmomi/issues/2545).
+- [a366e352]	Regenerated interface and type to include BaseAgencyConfigInfo. Closes: [#2545](https://github.com/zhengkes/govmomi/issues/2545).
 - [d66ef551]	explicitly import eam/simulator in test
 
 ### 💡 Examples
@@ -1545,11 +1545,11 @@ the task manager implementation.
 
 ### 📖 Commits
 
-- [a366e352]	fix: Regenerated interface and type to include BaseAgencyConfigInfo. Closes: [#2545](https://github.com/vmware/govmomi/issues/2545).
+- [a366e352]	fix: Regenerated interface and type to include BaseAgencyConfigInfo. Closes: [#2545](https://github.com/zhengkes/govmomi/issues/2545).
 - [655f8e5c]	testing for lab
 - [ce6ed634]	vcsim: avoid race when fetching object Locker
 - [31821de3]	vcsim: use 'domain-c' prefix for cluster moids
-- [0aa1de31]	make processing of mac addresses case insensitive ([#2510](https://github.com/vmware/govmomi/issues/2510))
+- [0aa1de31]	make processing of mac addresses case insensitive ([#2510](https://github.com/zhengkes/govmomi/issues/2510))
 - [012f5348]	govc: support updating items in library.update command
 - [0c045a63]	examples: Add Property Wait example
 - [f30cefc3]	Add Reauth flag to skip loading cached sessions
@@ -1564,7 +1564,7 @@ the task manager implementation.
 - [6fba1da7]	vcsim: Implement VSLM ExtendDisk_Task
 
 <a name="v0.26.0"></a>
-## [Release v0.26.0](https://github.com/vmware/govmomi/compare/v0.25.0...v0.26.0)
+## [Release v0.26.0](https://github.com/zhengkes/govmomi/compare/v0.25.0...v0.26.0)
 
 > Release Date: 2021-06-03
 
@@ -1579,13 +1579,13 @@ the task manager implementation.
 ### 💫 `govc` (CLI)
 
 - [e37e515b]	fix default guest.run path for unsupported Windows guests
-- [0e7012d0]	Add support for getting the VC proxy and no-proxy configuration ([#2435](https://github.com/vmware/govmomi/issues/2435))
+- [0e7012d0]	Add support for getting the VC proxy and no-proxy configuration ([#2435](https://github.com/zhengkes/govmomi/issues/2435))
 - [6afb8ff9]	Change 'Maintenance Mode' printing in host.info
 
 ### 💫 `vcsim` (Simulator)
 
 - [dff7f6bb]	fix panic in QueryPerfCounter method
-- [df9dfde1]	set VirtualMachine ChangeTrackingSupported property ([#2468](https://github.com/vmware/govmomi/issues/2468))
+- [df9dfde1]	set VirtualMachine ChangeTrackingSupported property ([#2468](https://github.com/zhengkes/govmomi/issues/2468))
 - [0c0ed98a]	fix race in CloneVM_Task
 - [d01d0fa7]	add simulator.RunContainer method
 - [8ab0c99a]	untie datastore capacity from local fs
@@ -1622,7 +1622,7 @@ the task manager implementation.
 - [75eee8e4]	docs: update govc/USAGE and CONTRIBUTORS
 - [dff7f6bb]	vcsim: fix panic in QueryPerfCounter method
 - [b4e1f965]	chore: Fix CONTRIB link in greeting
-- [df9dfde1]	vcsim: set VirtualMachine ChangeTrackingSupported property ([#2468](https://github.com/vmware/govmomi/issues/2468))
+- [df9dfde1]	vcsim: set VirtualMachine ChangeTrackingSupported property ([#2468](https://github.com/zhengkes/govmomi/issues/2468))
 - [8cbe64c5]	Fix: Protect FileProvider.files to avoid concurrent modification
 - [6f2597be]	chore: Update CHANGELOG implementation
 - [0c0ed98a]	vcsim: fix race in CloneVM_Task
@@ -1653,7 +1653,7 @@ the task manager implementation.
 - [7d779833]	Setup CodeQL Analysis
 - [566250ff]	build(deps): bump nokogiri from 1.11.1 to 1.11.4 in /gen
 - [f814a9ca]	ESX Agent Manager (EAM) Client and Simulator
-- [0e7012d0]	govc: Add support for getting the VC proxy and no-proxy configuration ([#2435](https://github.com/vmware/govmomi/issues/2435))
+- [0e7012d0]	govc: Add support for getting the VC proxy and no-proxy configuration ([#2435](https://github.com/zhengkes/govmomi/issues/2435))
 - [8bc8fd28]	chore: Add issue and PR templates
 - [4fea687c]	vcsim: include all namespaces in /about info
 - [bd3467d4]	vcsim: avoid edit device panic when DeviceInfo is nil
@@ -1690,7 +1690,7 @@ the task manager implementation.
 - [e86da96e]	Exclude go files in release tarball
 
 <a name="v0.25.0"></a>
-## [Release v0.25.0](https://github.com/vmware/govmomi/compare/v0.24.2...v0.25.0)
+## [Release v0.25.0](https://github.com/zhengkes/govmomi/compare/v0.24.2...v0.25.0)
 
 > Release Date: 2021-04-16
 
@@ -1843,7 +1843,7 @@ the task manager implementation.
 - [44e05fe4]	SHA-1 deprecated in 2011, sha256sum for releases
 
 <a name="v0.24.2"></a>
-## [Release v0.24.2](https://github.com/vmware/govmomi/compare/v0.24.1...v0.24.2)
+## [Release v0.24.2](https://github.com/zhengkes/govmomi/compare/v0.24.1...v0.24.2)
 
 > Release Date: 2021-10-14
 
@@ -1860,7 +1860,7 @@ the task manager implementation.
 - [5a2a8aba]	fix: avoid use of vNIC IP in guest.TransferURL if there are multiple
 
 <a name="v0.24.1"></a>
-## [Release v0.24.1](https://github.com/vmware/govmomi/compare/v0.24.0...v0.24.1)
+## [Release v0.24.1](https://github.com/zhengkes/govmomi/compare/v0.24.0...v0.24.1)
 
 > Release Date: 2021-03-17
 
@@ -1957,7 +1957,7 @@ the task manager implementation.
 - [44e05fe4]	SHA-1 deprecated in 2011, sha256sum for releases
 
 <a name="v0.24.0"></a>
-## [Release v0.24.0](https://github.com/vmware/govmomi/compare/v0.23.1...v0.24.0)
+## [Release v0.24.0](https://github.com/zhengkes/govmomi/compare/v0.23.1...v0.24.0)
 
 > Release Date: 2020-12-21
 
@@ -2003,7 +2003,7 @@ the task manager implementation.
 - [156b1cb0]	add ListView to race test
 - [55f6f952]	add mechanism for modeling methods
 - [69942fe2]	fix save/load property collection for VmwareDistributedVirtualSwitch
-- [33121b87]	Honoring the instance uuid provided in spec by caller ([#2052](https://github.com/vmware/govmomi/issues/2052))
+- [33121b87]	Honoring the instance uuid provided in spec by caller ([#2052](https://github.com/zhengkes/govmomi/issues/2052))
 
 ### ⚠️ BREAKING
 
@@ -2073,27 +2073,27 @@ the task manager implementation.
 - [94bc8497]	Add sms generated types and methods
 - [e153061f]	examples: fix simulator.RunContainer on MacOSX
 - [99fe9954]	finder: simplify direct use of InventoryPath func
-- [3760bd6c]	Added Instant Clone feature Resolves: [#1392](https://github.com/vmware/govmomi/issues/1392)
+- [3760bd6c]	Added Instant Clone feature Resolves: [#1392](https://github.com/zhengkes/govmomi/issues/1392)
 - [86374ea2]	govc: support multi value flags in host.esxcli command
 - [9cca13ab]	vcsim: avoid ViewManager.ModifyListView race
 - [156b1cb0]	vcsim: add ListView to race test
 - [f903d5da]	Add ExtendDisk and InflateDisk wrappers to vlsm/object_manager
 - [073cc310]	Add AttachDisk and DetachDisk wrappers for the virtualMachine object.
 - [a0c7e829]	vapi: add tags.Manager.GetAttachedTagsOnObjects example
-- [378a24c4]	Vsan Performance Data Collection API ([#2021](https://github.com/vmware/govmomi/issues/2021))
+- [378a24c4]	Vsan Performance Data Collection API ([#2021](https://github.com/zhengkes/govmomi/issues/2021))
 - [55f6f952]	vcsim: add mechanism for modeling methods
 - [69942fe2]	vcsim: fix save/load property collection for VmwareDistributedVirtualSwitch
 - [fe3becfa]	bats: test fixes for running on MacOSX
 - [0422a070]	Merge branch 'master' into pc/HardwareInfoNotReplicatingInCloning
 - [9f12aae4]	vapi: add Content Library example
-- [33121b87]	vcsim: Honoring the instance uuid provided in spec by caller ([#2052](https://github.com/vmware/govmomi/issues/2052))
+- [33121b87]	vcsim: Honoring the instance uuid provided in spec by caller ([#2052](https://github.com/zhengkes/govmomi/issues/2052))
 - [9a07942b]	Setting hardware properties in clone VM spec from template VM
 - [ebcfa3d4]	govc: add namespace.cluster.ls command
 - [11d45e54]	vapi: add namespace management client and vcsim support
 - [cdc44d5e]	vapi: add helper support "/api" endpoint
 
 <a name="v0.23.1"></a>
-## [Release v0.23.1](https://github.com/vmware/govmomi/compare/v0.23.0...v0.23.1)
+## [Release v0.23.1](https://github.com/zhengkes/govmomi/compare/v0.23.0...v0.23.1)
 
 > Release Date: 2020-07-02
 
@@ -2123,7 +2123,7 @@ the task manager implementation.
 - [0bbb6a7d]	examples: add property.Collector.Retrieve example
 
 <a name="v0.23.0"></a>
-## [Release v0.23.0](https://github.com/vmware/govmomi/compare/v0.22.2...v0.23.0)
+## [Release v0.23.0](https://github.com/zhengkes/govmomi/compare/v0.22.2...v0.23.0)
 
 > Release Date: 2020-06-11
 
@@ -2203,7 +2203,7 @@ the task manager implementation.
 - [b639ab4c]	Update docs for 0.23 release
 - [be7742f2]	vapi: use header authentication in file Upload/Download
 - [50846878]	provided examples for vm.clone and host.esxcli
-- [aa97c4d3]	Add appliance log forwarding config handler and govc verb ([#1994](https://github.com/vmware/govmomi/issues/1994))
+- [aa97c4d3]	Add appliance log forwarding config handler and govc verb ([#1994](https://github.com/zhengkes/govmomi/issues/1994))
 - [7cdad997]	Finder: support DistributedVirtualSwitch traversal
 - [10c22fd1]	govc: support raw object references in import.ova NetworkMapping
 - [c3fe4f84]	vcsim: CreateSnapshotTask now returns moref in result
@@ -2348,7 +2348,7 @@ the task manager implementation.
 - [7f685c23]	Add permissions for NoCryptoAdmin
 
 <a name="v0.22.2"></a>
-## [Release v0.22.2](https://github.com/vmware/govmomi/compare/v0.22.1...v0.22.2)
+## [Release v0.22.2](https://github.com/zhengkes/govmomi/compare/v0.22.1...v0.22.2)
 
 > Release Date: 2020-02-13
 
@@ -2359,7 +2359,7 @@ the task manager implementation.
 - [e7df0c11]	Avoid ServiceContent requirement in lookup.NewClient
 
 <a name="v0.22.1"></a>
-## [Release v0.22.1](https://github.com/vmware/govmomi/compare/v0.22.0...v0.22.1)
+## [Release v0.22.1](https://github.com/zhengkes/govmomi/compare/v0.22.0...v0.22.1)
 
 > Release Date: 2020-01-13
 
@@ -2374,7 +2374,7 @@ the task manager implementation.
 - [15630b90]	vapi: Add cluster modules client and simulator
 
 <a name="v0.22.0"></a>
-## [Release v0.22.0](https://github.com/vmware/govmomi/compare/v0.21.0...v0.22.0)
+## [Release v0.22.0](https://github.com/zhengkes/govmomi/compare/v0.21.0...v0.22.0)
 
 > Release Date: 2020-01-10
 
@@ -2445,7 +2445,7 @@ the task manager implementation.
 - [28b5fc6c]	use TLS in simulator.Run
 - [f962095f]	rename Example to Run
 - [43d69860]	add endpoint registration mechanism
-- [c183577b]	add PlaceVm support ([#1589](https://github.com/vmware/govmomi/issues/1589))
+- [c183577b]	add PlaceVm support ([#1589](https://github.com/zhengkes/govmomi/issues/1589))
 - [b17f3a51]	DefaultDatastoreID is optional in library deploy
 
 ### ⏮ Reverts
@@ -2466,11 +2466,11 @@ the task manager implementation.
 - [9b8da88a]	Remove toolbox specific guest run implementation
 - [965109ae]	govc: guest.run improvements
 - [ee28fcfd]	govc: add vm.customize multiple IP support
-- [40001828]	Add OVF properties to library deploy ([#1755](https://github.com/vmware/govmomi/issues/1755))
+- [40001828]	Add OVF properties to library deploy ([#1755](https://github.com/zhengkes/govmomi/issues/1755))
 - [68b3ea9f]	govc: fix library.info output formatting
 - [198b97ca]	vcsim: propagate VirtualMachineCloneSpec.Template
 - [5bb7f391]	govc: add optional library.info details
-- [2509e907]	Added the missing RetrieveSnapshotDetails API in VSLM ([#1763](https://github.com/vmware/govmomi/issues/1763))
+- [2509e907]	Added the missing RetrieveSnapshotDetails API in VSLM ([#1763](https://github.com/zhengkes/govmomi/issues/1763))
 - [d8ac7e51]	govc: handle xsd:string responses
 - [45b3685d]	Add library ItemType constants
 - [f3e2c3ce]	Add retry support for HTTP status codes
@@ -2573,7 +2573,7 @@ the task manager implementation.
 - [f962095f]	vcsim: rename Example to Run
 - [43d69860]	vcsim: add endpoint registration mechanism
 - [1b159e27]	govc: fix datacenter.info against nested folders
-- [c183577b]	vcsim: add PlaceVm support ([#1589](https://github.com/vmware/govmomi/issues/1589))
+- [c183577b]	vcsim: add PlaceVm support ([#1589](https://github.com/zhengkes/govmomi/issues/1589))
 - [3e71d6be]	Add ResourcePool.Owner method
 - [b17f3a51]	vcsim: DefaultDatastoreID is optional in library deploy
 - [68980704]	Update generated code to vSphere 6.7u3
@@ -2600,7 +2600,7 @@ the task manager implementation.
 - [3fb02b52]	govc: add guest.df command
 
 <a name="v0.21.0"></a>
-## [Release v0.21.0](https://github.com/vmware/govmomi/compare/v0.20.3...v0.21.0)
+## [Release v0.21.0](https://github.com/zhengkes/govmomi/compare/v0.20.3...v0.21.0)
 
 > Release Date: 2019-07-24
 
@@ -2660,7 +2660,7 @@ the task manager implementation.
 - [f9026a84]	VSLM FCD Global Object Manager client for 6.7U2+
 - [9495f0d8]	examples: add CustomFieldManager.Set
 - [bb170705]	govcsim: Create datastore as accessible
-- [35d0b7d3]	Set the InventoryPath of the folder object in DefaultFolder ([#1515](https://github.com/vmware/govmomi/issues/1515))
+- [35d0b7d3]	Set the InventoryPath of the folder object in DefaultFolder ([#1515](https://github.com/zhengkes/govmomi/issues/1515))
 - [2d13a357]	Add govmomi performance example
 - [2ddfb86b]	govc: add datastore.info -H flag
 - [55da29e5]	govcsim: Set datastore status as normal
@@ -2696,7 +2696,7 @@ the task manager implementation.
 - [f133c9e9]	Fix paths in vsan/methods
 - [d8e7cc75]	Update copy rights
 - [62412641]	Add vsan bindings
-- [fc3f0e9d]	Support resignature of vmfs snapshots ([#1442](https://github.com/vmware/govmomi/issues/1442))
+- [fc3f0e9d]	Support resignature of vmfs snapshots ([#1442](https://github.com/zhengkes/govmomi/issues/1442))
 - [fe372923]	govc: rename vcenter.deploy to library.deploy
 - [436d7a04]	govc: move library.item.update commands to library.session
 - [e6514757]	govc: consolidate library commands
@@ -2763,11 +2763,11 @@ the task manager implementation.
 - [f71d4efb]	govc/vm/*: Fix staticcheck issues
 - [3d77e2b1]	vim25/*: Fix staticcheck issues
 - [d711005a]	.gitignore: add editor files *~
-- [43ff04f1]	Fix [#1173](https://github.com/vmware/govmomi/issues/1173)
+- [43ff04f1]	Fix [#1173](https://github.com/zhengkes/govmomi/issues/1173)
 - [562aa0db]	Go Mod Support
 
 <a name="v0.20.3"></a>
-## [Release v0.20.3](https://github.com/vmware/govmomi/compare/v0.20.2...v0.20.3)
+## [Release v0.20.3](https://github.com/zhengkes/govmomi/compare/v0.20.2...v0.20.3)
 
 > Release Date: 2019-10-08
 
@@ -2778,7 +2778,7 @@ the task manager implementation.
 - [fdd27786]	Fix tls config in soap.NewServiceClient
 
 <a name="v0.20.2"></a>
-## [Release v0.20.2](https://github.com/vmware/govmomi/compare/v0.20.1...v0.20.2)
+## [Release v0.20.2](https://github.com/zhengkes/govmomi/compare/v0.20.1...v0.20.2)
 
 > Release Date: 2019-07-03
 
@@ -2786,10 +2786,10 @@ the task manager implementation.
 
 ### 📖 Commits
 
-- [bd9cfd18]	Set the InventoryPath of the folder object in DefaultFolder ([#1515](https://github.com/vmware/govmomi/issues/1515))
+- [bd9cfd18]	Set the InventoryPath of the folder object in DefaultFolder ([#1515](https://github.com/zhengkes/govmomi/issues/1515))
 
 <a name="v0.20.1"></a>
-## [Release v0.20.1](https://github.com/vmware/govmomi/compare/v0.20.1-vsan-65a0d6ab...v0.20.1)
+## [Release v0.20.1](https://github.com/zhengkes/govmomi/compare/v0.20.1-vsan-65a0d6ab...v0.20.1)
 
 > Release Date: 2019-05-20
 
@@ -2800,7 +2800,7 @@ the task manager implementation.
 - [4514987f]	Fix port signature in REST endpoint token auth
 
 <a name="v0.20.1-vsan-65a0d6ab"></a>
-## [Release v0.20.1-vsan-65a0d6ab](https://github.com/vmware/govmomi/compare/v0.20.1-vsan-199e737b...v0.20.1-vsan-65a0d6ab)
+## [Release v0.20.1-vsan-65a0d6ab](https://github.com/zhengkes/govmomi/compare/v0.20.1-vsan-199e737b...v0.20.1-vsan-65a0d6ab)
 
 > Release Date: 2021-02-19
 
@@ -2817,7 +2817,7 @@ the task manager implementation.
 - [bac56c3b]	Add bindings for vSANFS and extend CNS bindings to support file volume
 
 <a name="v0.20.1-vsan-199e737b"></a>
-## [Release v0.20.1-vsan-199e737b](https://github.com/vmware/govmomi/compare/v0.20.0...v0.20.1-vsan-199e737b)
+## [Release v0.20.1-vsan-199e737b](https://github.com/zhengkes/govmomi/compare/v0.20.0...v0.20.1-vsan-199e737b)
 
 > Release Date: 2019-05-13
 
@@ -2840,7 +2840,7 @@ the task manager implementation.
 - [83e068c5]	fix ListView.Modify
 - [3a6a02c0]	add ListView to race test
 - [89678493]	avoid ViewManager.ModifyListView race
-- [3661c9b4]	add PlaceVm support ([#1589](https://github.com/vmware/govmomi/issues/1589))
+- [3661c9b4]	add PlaceVm support ([#1589](https://github.com/zhengkes/govmomi/issues/1589))
 - [5b5eaa70]	remove httptest.serve flag
 - [20c1873e]	add library.deploy support
 - [0b1ad552]	add ovf manager
@@ -2861,7 +2861,7 @@ the task manager implementation.
 - [f51a8ca4]	Add vSAN 7.0 API bindings
 - [f08fb2a3]	Add vSAN 7.0 API bindings
 - [6eec064a]	Adding VsanQueryObjectIdentities and QueryVsanObjects
-- [d17598e4]	Vsan Performance Data Collection API ([#2021](https://github.com/vmware/govmomi/issues/2021))
+- [d17598e4]	Vsan Performance Data Collection API ([#2021](https://github.com/zhengkes/govmomi/issues/2021))
 - [7406f2dc]	skip tests when env is not set
 - [c32d3619]	removing usage of spew package
 - [e247d675]	Adding new API to get cluster configuration
@@ -2917,7 +2917,7 @@ the task manager implementation.
 - [ffcb0eca]	Merge branch 'cherry-pick-d296a5f8' into 'vmware-internal'
 - [00e53090]	Support HoK tokens with Interactive Users
 - [f71af4d0]	Merge branch 'cherry-pick-c183577b' into 'vmware-internal'
-- [3661c9b4]	vcsim: add PlaceVm support ([#1589](https://github.com/vmware/govmomi/issues/1589))
+- [3661c9b4]	vcsim: add PlaceVm support ([#1589](https://github.com/zhengkes/govmomi/issues/1589))
 - [c81eab04]	Merge branch 'cherry-pick-384b1b95' into 'vmware-internal'
 - [2751a42a]	Fix port signature in REST endpoint token auth
 - [25117583]	Merge branch 'topic/anubhabm/wcp-license' into 'vmware-internal'
@@ -2941,7 +2941,7 @@ the task manager implementation.
 - [d8e7cc75]	Update copy rights
 - [62412641]	Add vsan bindings
 - [605b62fa]	Adding bindings for placeMultiVms API
-- [fc3f0e9d]	Support resignature of vmfs snapshots ([#1442](https://github.com/vmware/govmomi/issues/1442))
+- [fc3f0e9d]	Support resignature of vmfs snapshots ([#1442](https://github.com/zhengkes/govmomi/issues/1442))
 - [fe372923]	govc: rename vcenter.deploy to library.deploy
 - [436d7a04]	govc: move library.item.update commands to library.session
 - [e6514757]	govc: consolidate library commands
@@ -3009,11 +3009,11 @@ the task manager implementation.
 - [f71d4efb]	govc/vm/*: Fix staticcheck issues
 - [3d77e2b1]	vim25/*: Fix staticcheck issues
 - [d711005a]	.gitignore: add editor files *~
-- [43ff04f1]	Fix [#1173](https://github.com/vmware/govmomi/issues/1173)
+- [43ff04f1]	Fix [#1173](https://github.com/zhengkes/govmomi/issues/1173)
 - [562aa0db]	Go Mod Support
 
 <a name="v0.20.0"></a>
-## [Release v0.20.0](https://github.com/vmware/govmomi/compare/v0.19.0...v0.20.0)
+## [Release v0.20.0](https://github.com/zhengkes/govmomi/compare/v0.19.0...v0.20.0)
 
 > Release Date: 2019-02-06
 
@@ -3030,7 +3030,7 @@ the task manager implementation.
 ### 💫 `vcsim` (Simulator)
 
 - [957ef0f7]	require authentication in vapi simulator
-- [32148187]	Resolve issue making device changes on clone (resolves [#1355](https://github.com/vmware/govmomi/issues/1355))
+- [32148187]	Resolve issue making device changes on clone (resolves [#1355](https://github.com/zhengkes/govmomi/issues/1355))
 - [cbb4abc9]	fix SearchDatastore task info entity
 - [2682c021]	add EnvironmentBrowser support
 - [3b9a4c9f]	avoid zero IP address in GOVC_URL output
@@ -3072,7 +3072,7 @@ the task manager implementation.
 - [da7af247]	Fix for govc/build.sh wrong dir
 - [90a863be]	Update docs for 0.20 release
 - [957ef0f7]	vcsim: require authentication in vapi simulator
-- [32148187]	vcsim: Resolve issue making device changes on clone (resolves [#1355](https://github.com/vmware/govmomi/issues/1355))
+- [32148187]	vcsim: Resolve issue making device changes on clone (resolves [#1355](https://github.com/zhengkes/govmomi/issues/1355))
 - [a7563c4d]	Use path id for tag-association requests
 - [cbb4abc9]	vcsim: fix SearchDatastore task info entity
 - [2682c021]	vcsim: add EnvironmentBrowser support
@@ -3087,7 +3087,7 @@ the task manager implementation.
 - [8ac7c5a8]	Fixed 64-bit aligment issues with atomic counters
 - [7ca12ea2]	fix device.info Write output
 - [3a82237c]	device.ls -json doesn't work for now
-- [86f4ba29]	ssoadmin:create local group and add users to group ([#1327](https://github.com/vmware/govmomi/issues/1327))
+- [86f4ba29]	ssoadmin:create local group and add users to group ([#1327](https://github.com/zhengkes/govmomi/issues/1327))
 - [2d8ef2c6]	Format with latest version of goimports
 - [4635c1cc]	govc: add device name match support to device.ls and device.remove
 - [d7857a13]	Updated the examples for the correct format
@@ -3153,7 +3153,7 @@ the task manager implementation.
 - [7a5cc6b7]	replace hostname only if unset
 
 <a name="v0.19.0"></a>
-## [Release v0.19.0](https://github.com/vmware/govmomi/compare/v0.18.0...v0.19.0)
+## [Release v0.19.0](https://github.com/zhengkes/govmomi/compare/v0.18.0...v0.19.0)
 
 > Release Date: 2018-09-30
 
@@ -3216,18 +3216,18 @@ the task manager implementation.
 - [d06874e1]	Upgrade for govc tags commands
 - [fdfaec9c]	Better documentation for VirtualMachine.UUID
 - [e1285a03]	Add UUID helper for VirtualMachine
-- [919b728c]	Complete tags management APIs ([#1162](https://github.com/vmware/govmomi/issues/1162))
+- [919b728c]	Complete tags management APIs ([#1162](https://github.com/zhengkes/govmomi/issues/1162))
 - [b3251638]	vcsa: bump to 6.7.0a release
-- [a1fbb6ef]	Optionally check root CAs for validity ([#1154](https://github.com/vmware/govmomi/issues/1154))
+- [a1fbb6ef]	Optionally check root CAs for validity ([#1154](https://github.com/zhengkes/govmomi/issues/1154))
 - [add38bed]	Fixed govc host.info logical CPU count
-- [1ddfb011]	Tags Categories cmd available  ([#1150](https://github.com/vmware/govmomi/issues/1150))
+- [1ddfb011]	Tags Categories cmd available  ([#1150](https://github.com/zhengkes/govmomi/issues/1150))
 - [83ae35fb]	default MarkAsTemplate to false in import spec
 - [49f0dea7]	add option to mark VM as template on OVX import
 - [1f9e19f4]	example: uniform unit for host memory
 - [4cfd1376]	fix example output.
 
 <a name="v0.18.0"></a>
-## [Release v0.18.0](https://github.com/vmware/govmomi/compare/v0.17.1...v0.18.0)
+## [Release v0.18.0](https://github.com/zhengkes/govmomi/compare/v0.17.1...v0.18.0)
 
 > Release Date: 2018-05-24
 
@@ -3289,7 +3289,7 @@ the task manager implementation.
 - [5f701460]	Add -firmware parameter to 'govc vm.create' with values bios|efi
 
 <a name="v0.17.1"></a>
-## [Release v0.17.1](https://github.com/vmware/govmomi/compare/v0.17.0...v0.17.1)
+## [Release v0.17.1](https://github.com/zhengkes/govmomi/compare/v0.17.0...v0.17.1)
 
 > Release Date: 2018-03-19
 
@@ -3311,7 +3311,7 @@ the task manager implementation.
 - [0636dc8c]	vcsim: add EventManager.QueryEvents
 
 <a name="v0.17.0"></a>
-## [Release v0.17.0](https://github.com/vmware/govmomi/compare/v0.16.0...v0.17.0)
+## [Release v0.17.0](https://github.com/zhengkes/govmomi/compare/v0.16.0...v0.17.0)
 
 > Release Date: 2018-02-28
 
@@ -3321,7 +3321,7 @@ the task manager implementation.
 - [d12b8f25]	object.collect support for raw filters
 - [6cb9fef8]	fix host.info CPU usage
 - [5786e7d2]	add -cluster flag to license.assign command
-- [d4ee331c]	allow columns in guest login password ([#972](https://github.com/vmware/govmomi/issues/972))
+- [d4ee331c]	allow columns in guest login password ([#972](https://github.com/zhengkes/govmomi/issues/972))
 
 ### 💫 `vcsim` (Simulator)
 
@@ -3340,14 +3340,14 @@ the task manager implementation.
 - [638d972b]	Initialize VM fields properly
 - [aa0382c1]	Honor the input spec in ReConfig VM
 - [42f9a133]	Add HostLocalAccountManager
-- [76f376a3]	workaround xml ns issue with pyvsphere ([#958](https://github.com/vmware/govmomi/issues/958))
-- [45c5269b]	add MakeDirectoryResponse ([#938](https://github.com/vmware/govmomi/issues/938))
-- [b4e77bd2]	copy RoleList for AuthorizationManager ([#932](https://github.com/vmware/govmomi/issues/932))
-- [2a8a5168]	apply vm spec NumCoresPerSocket ([#930](https://github.com/vmware/govmomi/issues/930))
+- [76f376a3]	workaround xml ns issue with pyvsphere ([#958](https://github.com/zhengkes/govmomi/issues/958))
+- [45c5269b]	add MakeDirectoryResponse ([#938](https://github.com/zhengkes/govmomi/issues/938))
+- [b4e77bd2]	copy RoleList for AuthorizationManager ([#932](https://github.com/zhengkes/govmomi/issues/932))
+- [2a8a5168]	apply vm spec NumCoresPerSocket ([#930](https://github.com/zhengkes/govmomi/issues/930))
 - [3a61d85f]	Configure dvs with the dvs config spec
-- [5f0f4004]	Add VirtualMachine guest ID validation ([#921](https://github.com/vmware/govmomi/issues/921))
-- [ef571547]	add QueryVirtualDiskUuid ([#920](https://github.com/vmware/govmomi/issues/920))
-- [27229ab7]	update ServiceContent to 6.5 ([#917](https://github.com/vmware/govmomi/issues/917))
+- [5f0f4004]	Add VirtualMachine guest ID validation ([#921](https://github.com/zhengkes/govmomi/issues/921))
+- [ef571547]	add QueryVirtualDiskUuid ([#920](https://github.com/zhengkes/govmomi/issues/920))
+- [27229ab7]	update ServiceContent to 6.5 ([#917](https://github.com/zhengkes/govmomi/issues/917))
 
 ### ⚠️ BREAKING
 
@@ -3386,44 +3386,44 @@ the task manager implementation.
 - [a13ad164]	Bump vcsa scripts to use 6.5U1 EP5
 - [c447244d]	Add CloneSession support to govc and vcsim
 - [d03f38fa]	vcsim: add session support
-- [44e8d85e]	Added AttachScsiLun function ([#987](https://github.com/vmware/govmomi/issues/987))
+- [44e8d85e]	Added AttachScsiLun function ([#987](https://github.com/zhengkes/govmomi/issues/987))
 - [a3c9ed2b]	vcsim: Add VM.MarkAsTemplate support
-- [3f8349f3]	Add cluster vm override commands ([#977](https://github.com/vmware/govmomi/issues/977))
-- [91fbd1f7]	Add option to filter events by type ([#976](https://github.com/vmware/govmomi/issues/976))
-- [1d8b92d9]	User server clock in session.ls ([#973](https://github.com/vmware/govmomi/issues/973))
+- [3f8349f3]	Add cluster vm override commands ([#977](https://github.com/zhengkes/govmomi/issues/977))
+- [91fbd1f7]	Add option to filter events by type ([#976](https://github.com/zhengkes/govmomi/issues/976))
+- [1d8b92d9]	User server clock in session.ls ([#973](https://github.com/zhengkes/govmomi/issues/973))
 - [50735461]	vcsim: more input spec honored in ReConfig VM
 - [638d972b]	vcsim: Initialize VM fields properly
-- [2892ed50]	Add '-rescan-vmfs' option to host.storage.info ([#966](https://github.com/vmware/govmomi/issues/966))
-- [d4ee331c]	govc: allow columns in guest login password ([#972](https://github.com/vmware/govmomi/issues/972))
-- [e15ff586]	Use IsFileNotFound helper in Datastore.Stat ([#969](https://github.com/vmware/govmomi/issues/969))
+- [2892ed50]	Add '-rescan-vmfs' option to host.storage.info ([#966](https://github.com/zhengkes/govmomi/issues/966))
+- [d4ee331c]	govc: allow columns in guest login password ([#972](https://github.com/zhengkes/govmomi/issues/972))
+- [e15ff586]	Use IsFileNotFound helper in Datastore.Stat ([#969](https://github.com/zhengkes/govmomi/issues/969))
 - [aa0382c1]	vcsim: Honor the input spec in ReConfig VM
 - [465bd948]	Hook AccountManager to UserDirectory
-- [aef2d795]	Destroy event history collectors ([#962](https://github.com/vmware/govmomi/issues/962))
+- [aef2d795]	Destroy event history collectors ([#962](https://github.com/zhengkes/govmomi/issues/962))
 - [42f9a133]	vcsim: Add HostLocalAccountManager
-- [76f376a3]	vcsim: workaround xml ns issue with pyvsphere ([#958](https://github.com/vmware/govmomi/issues/958))
-- [a1c49292]	Ignore AcquireLocalTicket errors ([#955](https://github.com/vmware/govmomi/issues/955))
+- [76f376a3]	vcsim: workaround xml ns issue with pyvsphere ([#958](https://github.com/zhengkes/govmomi/issues/958))
+- [a1c49292]	Ignore AcquireLocalTicket errors ([#955](https://github.com/zhengkes/govmomi/issues/955))
 - [bb150d50]	Add missing dependency in gen script
-- [0eacf959]	toolbox: validate request offset in ListFiles ([#946](https://github.com/vmware/govmomi/issues/946))
-- [1d6aed22]	Corrects datastore.disk usage which had not been generated ([#951](https://github.com/vmware/govmomi/issues/951))
-- [de717389]	Corrects vm.info usage with required args ([#950](https://github.com/vmware/govmomi/issues/950))
-- [c5ea3fb2]	Add datastore.disk inflate and shrink commands ([#943](https://github.com/vmware/govmomi/issues/943))
-- [adf4530b]	Corrects host.shutdown ([#939](https://github.com/vmware/govmomi/issues/939))
-- [45c5269b]	vcsim: add MakeDirectoryResponse ([#938](https://github.com/vmware/govmomi/issues/938))
-- [b4e77bd2]	vcsim: copy RoleList for AuthorizationManager ([#932](https://github.com/vmware/govmomi/issues/932))
-- [426a675a]	Fix [#933](https://github.com/vmware/govmomi/issues/933) ([#936](https://github.com/vmware/govmomi/issues/936))
-- [3be5f1d9]	Add cluster.group and cluster.rule commands ([#928](https://github.com/vmware/govmomi/issues/928))
-- [2a8a5168]	vcsim: apply vm spec NumCoresPerSocket ([#930](https://github.com/vmware/govmomi/issues/930))
+- [0eacf959]	toolbox: validate request offset in ListFiles ([#946](https://github.com/zhengkes/govmomi/issues/946))
+- [1d6aed22]	Corrects datastore.disk usage which had not been generated ([#951](https://github.com/zhengkes/govmomi/issues/951))
+- [de717389]	Corrects vm.info usage with required args ([#950](https://github.com/zhengkes/govmomi/issues/950))
+- [c5ea3fb2]	Add datastore.disk inflate and shrink commands ([#943](https://github.com/zhengkes/govmomi/issues/943))
+- [adf4530b]	Corrects host.shutdown ([#939](https://github.com/zhengkes/govmomi/issues/939))
+- [45c5269b]	vcsim: add MakeDirectoryResponse ([#938](https://github.com/zhengkes/govmomi/issues/938))
+- [b4e77bd2]	vcsim: copy RoleList for AuthorizationManager ([#932](https://github.com/zhengkes/govmomi/issues/932))
+- [426a675a]	Fix [#933](https://github.com/zhengkes/govmomi/issues/933) ([#936](https://github.com/zhengkes/govmomi/issues/936))
+- [3be5f1d9]	Add cluster.group and cluster.rule commands ([#928](https://github.com/zhengkes/govmomi/issues/928))
+- [2a8a5168]	vcsim: apply vm spec NumCoresPerSocket ([#930](https://github.com/zhengkes/govmomi/issues/930))
 - [3a61d85f]	vcsim: Configure dvs with the dvs config spec
-- [3b25c720]	CreateChildDisk 6.7 support ([#926](https://github.com/vmware/govmomi/issues/926))
-- [933ee3b2]	Add VirtualDiskManager.CreateChildDisk ([#925](https://github.com/vmware/govmomi/issues/925))
-- [5f0f4004]	vcsim: Add VirtualMachine guest ID validation ([#921](https://github.com/vmware/govmomi/issues/921))
-- [ef571547]	vcsim: add QueryVirtualDiskUuid ([#920](https://github.com/vmware/govmomi/issues/920))
-- [0ea3b9bd]	Implemened vm.upgrade operation. ([#918](https://github.com/vmware/govmomi/issues/918))
-- [27229ab7]	vcsim: update ServiceContent to 6.5 ([#917](https://github.com/vmware/govmomi/issues/917))
-- [46c79c93]	Add support for cpu + mem allocation to vm.change command ([#916](https://github.com/vmware/govmomi/issues/916))
+- [3b25c720]	CreateChildDisk 6.7 support ([#926](https://github.com/zhengkes/govmomi/issues/926))
+- [933ee3b2]	Add VirtualDiskManager.CreateChildDisk ([#925](https://github.com/zhengkes/govmomi/issues/925))
+- [5f0f4004]	vcsim: Add VirtualMachine guest ID validation ([#921](https://github.com/zhengkes/govmomi/issues/921))
+- [ef571547]	vcsim: add QueryVirtualDiskUuid ([#920](https://github.com/zhengkes/govmomi/issues/920))
+- [0ea3b9bd]	Implemened vm.upgrade operation. ([#918](https://github.com/zhengkes/govmomi/issues/918))
+- [27229ab7]	vcsim: update ServiceContent to 6.5 ([#917](https://github.com/zhengkes/govmomi/issues/917))
+- [46c79c93]	Add support for cpu + mem allocation to vm.change command ([#916](https://github.com/zhengkes/govmomi/issues/916))
 
 <a name="v0.16.0"></a>
-## [Release v0.16.0](https://github.com/vmware/govmomi/compare/v0.15.0...v0.16.0)
+## [Release v0.16.0](https://github.com/zhengkes/govmomi/compare/v0.15.0...v0.16.0)
 
 > Release Date: 2017-11-08
 
@@ -3435,10 +3435,10 @@ the task manager implementation.
 
 ### 💫 `vcsim` (Simulator)
 
-- [4543f4b6]	preserve order in QueryIpPools ([#914](https://github.com/vmware/govmomi/issues/914))
-- [b385183e]	return moref from Task.Run ([#913](https://github.com/vmware/govmomi/issues/913))
+- [4543f4b6]	preserve order in QueryIpPools ([#914](https://github.com/zhengkes/govmomi/issues/914))
+- [b385183e]	return moref from Task.Run ([#913](https://github.com/zhengkes/govmomi/issues/913))
 - [e29ab54a]	Implement IpPoolManager lifecycle
-- [b227a258]	add autostart option to power on VMs ([#906](https://github.com/vmware/govmomi/issues/906))
+- [b227a258]	add autostart option to power on VMs ([#906](https://github.com/zhengkes/govmomi/issues/906))
 - [ecde4a89]	use soapenv namespace for Fault types
 - [b1318195]	various property additions
 - [c19ec714]	Generate similar ref value like VC
@@ -3470,15 +3470,15 @@ the task manager implementation.
 
 ### 📖 Commits
 
-- [7d879bac]	Doc updates ([#915](https://github.com/vmware/govmomi/issues/915))
-- [4543f4b6]	vcsim: preserve order in QueryIpPools ([#914](https://github.com/vmware/govmomi/issues/914))
-- [b385183e]	vcsim: return moref from Task.Run ([#913](https://github.com/vmware/govmomi/issues/913))
-- [c8738903]	Remove tls-handshake-timeout flag ([#911](https://github.com/vmware/govmomi/issues/911))
+- [7d879bac]	Doc updates ([#915](https://github.com/zhengkes/govmomi/issues/915))
+- [4543f4b6]	vcsim: preserve order in QueryIpPools ([#914](https://github.com/zhengkes/govmomi/issues/914))
+- [b385183e]	vcsim: return moref from Task.Run ([#913](https://github.com/zhengkes/govmomi/issues/913))
+- [c8738903]	Remove tls-handshake-timeout flag ([#911](https://github.com/zhengkes/govmomi/issues/911))
 - [e29ab54a]	vcsim: Implement IpPoolManager lifecycle
-- [3619c1d9]	Use ProgressLogger for vm.clone command ([#909](https://github.com/vmware/govmomi/issues/909))
-- [13f2aba4]	readme: fix formatting of listing ([#908](https://github.com/vmware/govmomi/issues/908))
-- [b227a258]	vcsim: add autostart option to power on VMs ([#906](https://github.com/vmware/govmomi/issues/906))
-- [79934451]	Add installation procedure in README.md ([#902](https://github.com/vmware/govmomi/issues/902))
+- [3619c1d9]	Use ProgressLogger for vm.clone command ([#909](https://github.com/zhengkes/govmomi/issues/909))
+- [13f2aba4]	readme: fix formatting of listing ([#908](https://github.com/zhengkes/govmomi/issues/908))
+- [b227a258]	vcsim: add autostart option to power on VMs ([#906](https://github.com/zhengkes/govmomi/issues/906))
+- [79934451]	Add installation procedure in README.md ([#902](https://github.com/zhengkes/govmomi/issues/902))
 - [ecde4a89]	vcsim: use soapenv namespace for Fault types
 - [b1318195]	vcsim: various property additions
 - [4d8737c9]	Switch to kr/pretty package for the -dump flag
@@ -3487,7 +3487,7 @@ the task manager implementation.
 - [c19ec714]	vcsim: Generate similar ref value like VC
 - [0295f1b0]	govc: Fix VM clone when source doesn't have vNics
 - [f3046058]	vcsim: Add moref to vm's summary
-- [bfed5eea]	[govc] Introduce TLSHandshakeTimeout parameter ([#890](https://github.com/vmware/govmomi/issues/890))
+- [bfed5eea]	[govc] Introduce TLSHandshakeTimeout parameter ([#890](https://github.com/zhengkes/govmomi/issues/890))
 - [1c1291ca]	Support import ova/ovf by URL
 - [3cb5cc96]	Remove BaseResourceAllocationInfo
 - [5f3fba94]	vcsim: validate authz privilege ids
@@ -3568,7 +3568,7 @@ the task manager implementation.
 - [9d47dd13]	Move vcsim from vmware/vic to govmomi
 
 <a name="v0.15.0"></a>
-## [Release v0.15.0](https://github.com/vmware/govmomi/compare/v0.14.0...v0.15.0)
+## [Release v0.15.0](https://github.com/zhengkes/govmomi/compare/v0.14.0...v0.15.0)
 
 > Release Date: 2017-06-19
 
@@ -3590,13 +3590,13 @@ the task manager implementation.
 - [6f5c037c]	Adjust message slice passed to include
 - [48509bc3]	Fix package name
 - [6f635b73]	Add host.shutdown command
-- [67b13b52]	Add doc on metric.sample instance flag ([#726](https://github.com/vmware/govmomi/issues/726))
-- [8bff8355]	Fix tail n=0 case ([#725](https://github.com/vmware/govmomi/issues/725))
-- [10e6ced9]	Update copyright ([#723](https://github.com/vmware/govmomi/issues/723))
-- [6f8ebd89]	Allow caller to supply custom tail behavior ([#722](https://github.com/vmware/govmomi/issues/722))
-- [35caa01b]	Add options to host.autostart.add ([#719](https://github.com/vmware/govmomi/issues/719))
-- [2030458d]	Add VC options command ([#717](https://github.com/vmware/govmomi/issues/717))
-- [0ccad10c]	Exported FindSnapshot() Method ([#715](https://github.com/vmware/govmomi/issues/715))
+- [67b13b52]	Add doc on metric.sample instance flag ([#726](https://github.com/zhengkes/govmomi/issues/726))
+- [8bff8355]	Fix tail n=0 case ([#725](https://github.com/zhengkes/govmomi/issues/725))
+- [10e6ced9]	Update copyright ([#723](https://github.com/zhengkes/govmomi/issues/723))
+- [6f8ebd89]	Allow caller to supply custom tail behavior ([#722](https://github.com/zhengkes/govmomi/issues/722))
+- [35caa01b]	Add options to host.autostart.add ([#719](https://github.com/zhengkes/govmomi/issues/719))
+- [2030458d]	Add VC options command ([#717](https://github.com/zhengkes/govmomi/issues/717))
+- [0ccad10c]	Exported FindSnapshot() Method ([#715](https://github.com/zhengkes/govmomi/issues/715))
 - [34202aca]	Additional wrapper functions for SPBM
 - [c7f718b1]	Add AuthorizationManager {Enable,Disable}Methods
 - [d5e08cd2]	Add PBM client and wrapper methods
@@ -3605,7 +3605,7 @@ the task manager implementation.
 - [f736458f]	Support non-Go clients in xml decoder
 
 <a name="v0.14.0"></a>
-## [Release v0.14.0](https://github.com/vmware/govmomi/compare/v0.13.0...v0.14.0)
+## [Release v0.14.0](https://github.com/zhengkes/govmomi/compare/v0.13.0...v0.14.0)
 
 > Release Date: 2017-04-08
 
@@ -3633,13 +3633,13 @@ the task manager implementation.
 - [ab595fb3]	Remove deferred Close() call in follower's Read()
 
 <a name="v0.13.0"></a>
-## [Release v0.13.0](https://github.com/vmware/govmomi/compare/v0.12.1...v0.13.0)
+## [Release v0.13.0](https://github.com/zhengkes/govmomi/compare/v0.12.1...v0.13.0)
 
 > Release Date: 2017-03-02
 
 ### 💫 `vcsim` (Simulator)
 
-- [5f7efaf1]	esxcli FirewallInfo fixes ([#661](https://github.com/vmware/govmomi/issues/661))
+- [5f7efaf1]	esxcli FirewallInfo fixes ([#661](https://github.com/zhengkes/govmomi/issues/661))
 
 ### ⚠️ BREAKING
 
@@ -3647,30 +3647,30 @@ the task manager implementation.
 
 - [b4a3f7a1]	Release 0.13.0
 - [5bf03cb4]	Add vm.guest.tools command
-- [b4ef3b73]	Host is optional for MarkAsVirtualMachine ([#675](https://github.com/vmware/govmomi/issues/675))
-- [f4a3ffe5]	Add vsan and disk commands / helpers ([#672](https://github.com/vmware/govmomi/issues/672))
-- [1f82c282]	Handle the case where e.VirtualSystem is nil ([#671](https://github.com/vmware/govmomi/issues/671))
-- [dd346974]	Remove object.ListView ([#669](https://github.com/vmware/govmomi/issues/669))
-- [4994038a]	Wraps the ContainerView managed object. ([#667](https://github.com/vmware/govmomi/issues/667))
-- [93064c06]	Handle nil TaskInfo in task.Wait callback [#2](https://github.com/vmware/govmomi/issues/2) ([#666](https://github.com/vmware/govmomi/issues/666))
-- [f1f5b6cb]	Handle nil TaskInfo in task.Wait callback ([#665](https://github.com/vmware/govmomi/issues/665))
-- [f3cf126d]	Support alternative './...' syntax for finder ([#664](https://github.com/vmware/govmomi/issues/664))
-- [9bda6c3e]	Finder: support automatic Folder recursion ([#663](https://github.com/vmware/govmomi/issues/663))
-- [0a28e595]	Add a command line option to change an existing disk attached to a VM ([#658](https://github.com/vmware/govmomi/issues/658))
-- [3e95cb11]	Attach and list RDM/LUN ([#656](https://github.com/vmware/govmomi/issues/656))
-- [5f7efaf1]	vcsim: esxcli FirewallInfo fixes ([#661](https://github.com/vmware/govmomi/issues/661))
-- [17e6545f]	Add device option to WaitForNetIP ([#660](https://github.com/vmware/govmomi/issues/660))
+- [b4ef3b73]	Host is optional for MarkAsVirtualMachine ([#675](https://github.com/zhengkes/govmomi/issues/675))
+- [f4a3ffe5]	Add vsan and disk commands / helpers ([#672](https://github.com/zhengkes/govmomi/issues/672))
+- [1f82c282]	Handle the case where e.VirtualSystem is nil ([#671](https://github.com/zhengkes/govmomi/issues/671))
+- [dd346974]	Remove object.ListView ([#669](https://github.com/zhengkes/govmomi/issues/669))
+- [4994038a]	Wraps the ContainerView managed object. ([#667](https://github.com/zhengkes/govmomi/issues/667))
+- [93064c06]	Handle nil TaskInfo in task.Wait callback [#2](https://github.com/zhengkes/govmomi/issues/2) ([#666](https://github.com/zhengkes/govmomi/issues/666))
+- [f1f5b6cb]	Handle nil TaskInfo in task.Wait callback ([#665](https://github.com/zhengkes/govmomi/issues/665))
+- [f3cf126d]	Support alternative './...' syntax for finder ([#664](https://github.com/zhengkes/govmomi/issues/664))
+- [9bda6c3e]	Finder: support automatic Folder recursion ([#663](https://github.com/zhengkes/govmomi/issues/663))
+- [0a28e595]	Add a command line option to change an existing disk attached to a VM ([#658](https://github.com/zhengkes/govmomi/issues/658))
+- [3e95cb11]	Attach and list RDM/LUN ([#656](https://github.com/zhengkes/govmomi/issues/656))
+- [5f7efaf1]	vcsim: esxcli FirewallInfo fixes ([#661](https://github.com/zhengkes/govmomi/issues/661))
+- [17e6545f]	Add device option to WaitForNetIP ([#660](https://github.com/zhengkes/govmomi/issues/660))
 - [ba9e3f44]	Fix vm.change test
-- [e66c8344]	Add the option to describe a VM using the annotation option in ConfigSpec ([#657](https://github.com/vmware/govmomi/issues/657))
+- [e66c8344]	Add the option to describe a VM using the annotation option in ConfigSpec ([#657](https://github.com/zhengkes/govmomi/issues/657))
 - [505fcf9c]	Update doc
-- [913c0eb4]	Add support for reading and changing SyncTimeWithHost option ([#539](https://github.com/vmware/govmomi/issues/539))
+- [913c0eb4]	Add support for reading and changing SyncTimeWithHost option ([#539](https://github.com/zhengkes/govmomi/issues/539))
 - [682494e1]	Remove _Task suffix from vapp methods
 - [733acc9e]	Emacs: add govc-command-history
-- [ea52d587]	Add object.collect command ([#652](https://github.com/vmware/govmomi/issues/652))
+- [ea52d587]	Add object.collect command ([#652](https://github.com/zhengkes/govmomi/issues/652))
 - [f49782a8]	Update email address for contributor Bruce Downs
 
 <a name="v0.12.1"></a>
-## [Release v0.12.1](https://github.com/vmware/govmomi/compare/v0.12.0...v0.12.1)
+## [Release v0.12.1](https://github.com/zhengkes/govmomi/compare/v0.12.0...v0.12.1)
 
 > Release Date: 2016-12-19
 
@@ -3680,19 +3680,19 @@ the task manager implementation.
 
 - [6103db21]	Release 0.12.1
 - [45a53517]	Note 6.5 support
-- [fec40b21]	Add '-f' flag to logs command ([#643](https://github.com/vmware/govmomi/issues/643))
-- [40cf9f80]	govc.el: auth-source integration ([#648](https://github.com/vmware/govmomi/issues/648))
-- [ca99f8de]	Add govc-command customization option ([#645](https://github.com/vmware/govmomi/issues/645))
-- [ad6e5634]	Avoid Finder panic when SetDatacenter is not called ([#640](https://github.com/vmware/govmomi/issues/640))
-- [b5c807e3]	Add storage support to vm.migrate ([#641](https://github.com/vmware/govmomi/issues/641))
-- [1a7dc61e]	govc/version: skip first char in git version mismatch error ([#642](https://github.com/vmware/govmomi/issues/642))
+- [fec40b21]	Add '-f' flag to logs command ([#643](https://github.com/zhengkes/govmomi/issues/643))
+- [40cf9f80]	govc.el: auth-source integration ([#648](https://github.com/zhengkes/govmomi/issues/648))
+- [ca99f8de]	Add govc-command customization option ([#645](https://github.com/zhengkes/govmomi/issues/645))
+- [ad6e5634]	Avoid Finder panic when SetDatacenter is not called ([#640](https://github.com/zhengkes/govmomi/issues/640))
+- [b5c807e3]	Add storage support to vm.migrate ([#641](https://github.com/zhengkes/govmomi/issues/641))
+- [1a7dc61e]	govc/version: skip first char in git version mismatch error ([#642](https://github.com/zhengkes/govmomi/issues/642))
 - [6bc730e1]	Add Slack links
-- [e152c355]	Add DatastorePath helper ([#638](https://github.com/vmware/govmomi/issues/638))
-- [5b4d5215]	Add support for file backed serialport devices ([#637](https://github.com/vmware/govmomi/issues/637))
-- [f49bd564]	Add vm.ip docs ([#636](https://github.com/vmware/govmomi/issues/636))
+- [e152c355]	Add DatastorePath helper ([#638](https://github.com/zhengkes/govmomi/issues/638))
+- [5b4d5215]	Add support for file backed serialport devices ([#637](https://github.com/zhengkes/govmomi/issues/637))
+- [f49bd564]	Add vm.ip docs ([#636](https://github.com/zhengkes/govmomi/issues/636))
 
 <a name="v0.12.0"></a>
-## [Release v0.12.0](https://github.com/vmware/govmomi/compare/v0.11.4...v0.12.0)
+## [Release v0.12.0](https://github.com/zhengkes/govmomi/compare/v0.11.4...v0.12.0)
 
 > Release Date: 2016-12-01
 
@@ -3701,7 +3701,7 @@ the task manager implementation.
 ### 📖 Commits
 
 - [ab40ac73]	Release 0.12.0
-- [e702e188]	Disable use of service ticket for datastore HTTP access by default ([#635](https://github.com/vmware/govmomi/issues/635))
+- [e702e188]	Disable use of service ticket for datastore HTTP access by default ([#635](https://github.com/zhengkes/govmomi/issues/635))
 - [1fba1af7]	Attach context to HTTP requests for cancellations
 - [79cb3d93]	Support InjectOvfEnv without PowerOn when importing
 - [117118a2]	Support stdin as import options source
@@ -3710,7 +3710,7 @@ the task manager implementation.
 - [757a2d6d]	re-generate vim25 using 6.5.0
 
 <a name="v0.11.4"></a>
-## [Release v0.11.4](https://github.com/vmware/govmomi/compare/v0.11.3...v0.11.4)
+## [Release v0.11.4](https://github.com/zhengkes/govmomi/compare/v0.11.3...v0.11.4)
 
 > Release Date: 2016-11-15
 
@@ -3725,7 +3725,7 @@ the task manager implementation.
 - [2a2cab2a]	Add host.portgroup.change examples
 
 <a name="v0.11.3"></a>
-## [Release v0.11.3](https://github.com/vmware/govmomi/compare/v0.11.2...v0.11.3)
+## [Release v0.11.3](https://github.com/zhengkes/govmomi/compare/v0.11.2...v0.11.3)
 
 > Release Date: 2016-11-08
 
@@ -3738,7 +3738,7 @@ the task manager implementation.
 - [83028634]	Allow DatastoreFile follower to drain current body
 
 <a name="v0.11.2"></a>
-## [Release v0.11.2](https://github.com/vmware/govmomi/compare/v0.11.1...v0.11.2)
+## [Release v0.11.2](https://github.com/zhengkes/govmomi/compare/v0.11.1...v0.11.2)
 
 > Release Date: 2016-11-01
 
@@ -3752,7 +3752,7 @@ the task manager implementation.
 - [c5b9a266]	Add host account manager support for 5.5
 
 <a name="v0.11.1"></a>
-## [Release v0.11.1](https://github.com/vmware/govmomi/compare/v0.11.0...v0.11.1)
+## [Release v0.11.1](https://github.com/zhengkes/govmomi/compare/v0.11.0...v0.11.1)
 
 > Release Date: 2016-10-27
 
@@ -3765,7 +3765,7 @@ the task manager implementation.
 - [91b2ad48]	Release script tweaks
 
 <a name="v0.11.0"></a>
-## [Release v0.11.0](https://github.com/vmware/govmomi/compare/v0.10.0...v0.11.0)
+## [Release v0.11.0](https://github.com/zhengkes/govmomi/compare/v0.10.0...v0.11.0)
 
 > Release Date: 2016-10-25
 
@@ -3778,7 +3778,7 @@ the task manager implementation.
 - [82634835]	Add dvs.portgroup.change command
 
 <a name="v0.10.0"></a>
-## [Release v0.10.0](https://github.com/vmware/govmomi/compare/v0.9.0...v0.10.0)
+## [Release v0.10.0](https://github.com/zhengkes/govmomi/compare/v0.9.0...v0.10.0)
 
 > Release Date: 2016-10-20
 
@@ -3806,7 +3806,7 @@ the task manager implementation.
 - [7c708b2e]	Adding vSPC proxyURI to govc
 
 <a name="v0.9.0"></a>
-## [Release v0.9.0](https://github.com/vmware/govmomi/compare/v0.8.0...v0.9.0)
+## [Release v0.9.0](https://github.com/zhengkes/govmomi/compare/v0.8.0...v0.9.0)
 
 > Release Date: 2016-09-09
 
@@ -3853,15 +3853,15 @@ the task manager implementation.
 - [498cb97d]	Add 'Annotation' attribute to importx options.
 - [223168f0]	Add NetworkMapping section to importx options.
 - [5c708f6b]	Remove vendor target from the Makefile
-- [f8199eb8]	Handle errors in QueryVirtualDiskUUid function ([#548](https://github.com/vmware/govmomi/issues/548))
+- [f8199eb8]	Handle errors in QueryVirtualDiskUUid function ([#548](https://github.com/zhengkes/govmomi/issues/548))
 - [73dcde2c]	vendor github.com/davecgh/go-spew/spew
 - [e1e407f7]	vendor golang.org/x/net/context
-- [e3c3cd0a]	Populate network mapping from ovf envelope ([#546](https://github.com/vmware/govmomi/issues/546))
-- [fa6668dc]	Add QueryVirtualDiskUuid function ([#545](https://github.com/vmware/govmomi/issues/545))
+- [e3c3cd0a]	Populate network mapping from ovf envelope ([#546](https://github.com/zhengkes/govmomi/issues/546))
+- [fa6668dc]	Add QueryVirtualDiskUuid function ([#545](https://github.com/zhengkes/govmomi/issues/545))
 - [17682d5b]	Fixes panic in govc events
 
 <a name="v0.8.0"></a>
-## [Release v0.8.0](https://github.com/vmware/govmomi/compare/v0.7.1...v0.8.0)
+## [Release v0.8.0](https://github.com/zhengkes/govmomi/compare/v0.7.1...v0.8.0)
 
 > Release Date: 2016-06-30
 
@@ -3887,7 +3887,7 @@ the task manager implementation.
 - [982e64b8]	Add vm.markastemplate
 
 <a name="v0.7.1"></a>
-## [Release v0.7.1](https://github.com/vmware/govmomi/compare/v0.7.0...v0.7.1)
+## [Release v0.7.1](https://github.com/zhengkes/govmomi/compare/v0.7.0...v0.7.1)
 
 > Release Date: 2016-06-03
 
@@ -3898,7 +3898,7 @@ the task manager implementation.
 - [2cad28d0]	Fix Datastore upload/download against VC
 
 <a name="v0.7.0"></a>
-## [Release v0.7.0](https://github.com/vmware/govmomi/compare/v0.6.2...v0.7.0)
+## [Release v0.7.0](https://github.com/zhengkes/govmomi/compare/v0.6.2...v0.7.0)
 
 > Release Date: 2016-06-02
 
@@ -3920,7 +3920,7 @@ the task manager implementation.
 - [b001e05b]	Add -rescan option to host.storage.info command
 
 <a name="v0.6.2"></a>
-## [Release v0.6.2](https://github.com/vmware/govmomi/compare/v0.6.1...v0.6.2)
+## [Release v0.6.2](https://github.com/zhengkes/govmomi/compare/v0.6.1...v0.6.2)
 
 > Release Date: 2016-05-13
 
@@ -3935,7 +3935,7 @@ the task manager implementation.
 - [4e0680c1]	adding remove all snapshots to vm objects
 
 <a name="v0.6.1"></a>
-## [Release v0.6.1](https://github.com/vmware/govmomi/compare/v0.6.0...v0.6.1)
+## [Release v0.6.1](https://github.com/zhengkes/govmomi/compare/v0.6.0...v0.6.1)
 
 > Release Date: 2016-04-30
 
@@ -3947,7 +3947,7 @@ the task manager implementation.
 - [47098806]	Fix mo.Entity interface
 
 <a name="v0.6.0"></a>
-## [Release v0.6.0](https://github.com/vmware/govmomi/compare/v0.5.0...v0.6.0)
+## [Release v0.6.0](https://github.com/zhengkes/govmomi/compare/v0.5.0...v0.6.0)
 
 > Release Date: 2016-04-29
 
@@ -3980,7 +3980,7 @@ the task manager implementation.
 - [1aca660c]	device.remove: add keep option
 
 <a name="v0.5.0"></a>
-## [Release v0.5.0](https://github.com/vmware/govmomi/compare/v0.4.0...v0.5.0)
+## [Release v0.5.0](https://github.com/zhengkes/govmomi/compare/v0.4.0...v0.5.0)
 
 > Release Date: 2016-03-30
 
@@ -4016,12 +4016,12 @@ the task manager implementation.
 - [dff2c197]	Fix VirtualDeviceList.CreateFloppy
 - [c7d8cd3e]	Ran gofmt on create.go
 - [e077bcf5]	Fix issue with optional UnitNumber (v2)
-- [539ad504]	Added arguments to govc vm.disk.create for thick provisioning and eager scrubbing, as requested in issue [#254](https://github.com/vmware/govmomi/issues/254)
+- [539ad504]	Added arguments to govc vm.disk.create for thick provisioning and eager scrubbing, as requested in issue [#254](https://github.com/zhengkes/govmomi/issues/254)
 - [e66c6df9]	Handle import statement for types too
 - [265d8bdb]	Remove hardcoded urn:vim25 value from vim_wsdl.rb
 
 <a name="v0.4.0"></a>
-## [Release v0.4.0](https://github.com/vmware/govmomi/compare/v0.3.0...v0.4.0)
+## [Release v0.4.0](https://github.com/zhengkes/govmomi/compare/v0.3.0...v0.4.0)
 
 > Release Date: 2016-02-26
 
@@ -4043,7 +4043,7 @@ the task manager implementation.
 - [c69e9bc1]	Allow StoragePod type to be traversed
 - [4d2ea3f4]	added explicit path during clone
 - [3d8eb102]	Update missing property whitelist
-- [779ae0a1]	re-generate vim25 using 6.0 Update 1b (vimbase [#3024326](https://github.com/vmware/govmomi/issues/3024326))
+- [779ae0a1]	re-generate vim25 using 6.0 Update 1b (vimbase [#3024326](https://github.com/zhengkes/govmomi/issues/3024326))
 - [53c29f6a]	Handle import statements same as include
 - [a738f89d]	Update govc.el URL
 - [da2a249e]	Doc updates
@@ -4063,7 +4063,7 @@ the task manager implementation.
 - [33963263]	Added check for missing ovf deployment section
 
 <a name="v0.3.0"></a>
-## [Release v0.3.0](https://github.com/vmware/govmomi/compare/v0.2.0...v0.3.0)
+## [Release v0.3.0](https://github.com/zhengkes/govmomi/compare/v0.2.0...v0.3.0)
 
 > Release Date: 2016-01-15
 
@@ -4162,7 +4162,7 @@ the task manager implementation.
 - [3742a8aa]	don't start goroutine while context is nil
 
 <a name="v0.2.0"></a>
-## [Release v0.2.0](https://github.com/vmware/govmomi/compare/v0.1.0...v0.2.0)
+## [Release v0.2.0](https://github.com/zhengkes/govmomi/compare/v0.1.0...v0.2.0)
 
 > Release Date: 2015-09-15
 
@@ -4373,7 +4373,7 @@ the task manager implementation.
 - [e6ebcd7f]	bats fixup: destroy datacenter
 - [65838131]	Disable vcsa box password expiration
 - [7a6e737b]	Add CONTRIBUTORS file
-- [1cbe968d]	Issue [#192](https://github.com/vmware/govmomi/issues/192): HostSystem doesn't seem to be returning the correct host.
+- [1cbe968d]	Issue [#192](https://github.com/zhengkes/govmomi/issues/192): HostSystem doesn't seem to be returning the correct host.
 - [116a4044]	fix a problem of ignored https_proxy environment variable with https scheme
 - [df423c32]	Add create and destroy datacenter to govc.
 - [035bd12c]	Usage for devices.{cdrom,floppy}.*

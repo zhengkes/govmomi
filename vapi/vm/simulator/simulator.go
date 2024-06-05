@@ -25,13 +25,13 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vapi/rest"
-	vapi "github.com/vmware/govmomi/vapi/simulator"
-	"github.com/vmware/govmomi/vapi/vm/dataset"
-	"github.com/vmware/govmomi/vapi/vm/internal"
-	"github.com/vmware/govmomi/vim25/methods"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vapi/rest"
+	vapi "github.com/zhengkes/govmomi/vapi/simulator"
+	"github.com/zhengkes/govmomi/vapi/vm/dataset"
+	"github.com/zhengkes/govmomi/vapi/vm/internal"
+	"github.com/zhengkes/govmomi/vim25/methods"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 const (

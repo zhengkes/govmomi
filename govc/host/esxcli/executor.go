@@ -20,10 +20,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/vmware/govmomi/internal"
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/xml"
+	"github.com/zhengkes/govmomi/internal"
+	"github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/xml"
 )
 
 type Fault struct {

@@ -24,10 +24,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/vmware/govmomi"
-	cnstypes "github.com/vmware/govmomi/cns/types"
-	"github.com/vmware/govmomi/object"
-	vim25types "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi"
+	cnstypes "github.com/zhengkes/govmomi/cns/types"
+	"github.com/zhengkes/govmomi/object"
+	vim25types "github.com/zhengkes/govmomi/vim25/types"
 )
 
 // DefaultVCenterPort is the default port used to access vCenter.

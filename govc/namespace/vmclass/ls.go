@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/vmware/govmomi/vapi/namespace"
+	"github.com/zhengkes/govmomi/vapi/namespace"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/flags"
 )
 
 type lsResult []namespace.VirtualMachineClassInfo

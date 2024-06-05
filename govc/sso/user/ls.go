@@ -23,11 +23,11 @@ import (
 	"io"
 	"text/tabwriter"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/govc/sso"
-	"github.com/vmware/govmomi/ssoadmin"
-	"github.com/vmware/govmomi/ssoadmin/types"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/flags"
+	"github.com/zhengkes/govmomi/govc/sso"
+	"github.com/zhengkes/govmomi/ssoadmin"
+	"github.com/zhengkes/govmomi/ssoadmin/types"
 )
 
 type ls struct {

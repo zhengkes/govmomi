@@ -22,13 +22,13 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/vmware/govmomi/find"
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vapi/rest"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/debug"
+	"github.com/zhengkes/govmomi/find"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/debug"
 
-	_ "github.com/vmware/govmomi/vapi/simulator"
+	_ "github.com/zhengkes/govmomi/vapi/simulator"
 )
 
 func TestSetProvider(t *testing.T) {

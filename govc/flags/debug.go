@@ -33,9 +33,9 @@ import (
 
 	"github.com/dougm/pretty"
 
-	"github.com/vmware/govmomi/vim25/debug"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/debug"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 type cmdFormat struct {

@@ -20,12 +20,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/soap"
-	vim "github.com/vmware/govmomi/vim25/types"
-	"github.com/vmware/govmomi/vslm/methods"
-	"github.com/vmware/govmomi/vslm/types"
+	"github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	vim "github.com/zhengkes/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vslm/methods"
+	"github.com/zhengkes/govmomi/vslm/types"
 )
 
 type Task struct {

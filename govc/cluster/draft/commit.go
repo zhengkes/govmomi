@@ -20,10 +20,10 @@ import (
 	"context"
 	"flag"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/vapi/cis/tasks"
-	"github.com/vmware/govmomi/vapi/esx/settings/clusters"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/flags"
+	"github.com/zhengkes/govmomi/vapi/cis/tasks"
+	"github.com/zhengkes/govmomi/vapi/esx/settings/clusters"
 )
 
 type commit struct {

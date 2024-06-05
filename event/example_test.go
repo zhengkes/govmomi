@@ -20,12 +20,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/vmware/govmomi/event"
-	"github.com/vmware/govmomi/find"
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/event"
+	"github.com/zhengkes/govmomi/find"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // ensure event.Manager implements the mo.Reference interface

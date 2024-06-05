@@ -22,13 +22,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/object"
-	vim "github.com/vmware/govmomi/vim25/types"
-	"github.com/vmware/govmomi/vsan"
-	"github.com/vmware/govmomi/vsan/methods"
-	"github.com/vmware/govmomi/vsan/types"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/flags"
+	"github.com/zhengkes/govmomi/object"
+	vim "github.com/zhengkes/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vsan"
+	"github.com/zhengkes/govmomi/vsan/methods"
+	"github.com/zhengkes/govmomi/vsan/types"
 )
 
 type stretch struct {

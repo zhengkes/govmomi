@@ -26,8 +26,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/vmware/govmomi/vim25/progress"
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/progress"
+	"github.com/zhengkes/govmomi/vim25/soap"
 )
 
 // DatastoreFileManager combines FileManager and VirtualDiskManager to manage files on a Datastore

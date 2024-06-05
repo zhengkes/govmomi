@@ -26,17 +26,17 @@ import (
 
 	"github.com/dougm/pretty"
 
-	"github.com/vmware/govmomi/find"
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/vim25/debug"
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/find"
+	"github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/property"
+	"github.com/zhengkes/govmomi/vim25/debug"
+	"github.com/zhengkes/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/vim25/soap"
 
-	"github.com/vmware/govmomi"
-	cnstypes "github.com/vmware/govmomi/cns/types"
-	vim25types "github.com/vmware/govmomi/vim25/types"
-	vsanfstypes "github.com/vmware/govmomi/vsan/vsanfs/types"
+	"github.com/zhengkes/govmomi"
+	cnstypes "github.com/zhengkes/govmomi/cns/types"
+	vim25types "github.com/zhengkes/govmomi/vim25/types"
+	vsanfstypes "github.com/zhengkes/govmomi/vsan/vsanfs/types"
 )
 
 const VSphere70u3VersionInt = 703

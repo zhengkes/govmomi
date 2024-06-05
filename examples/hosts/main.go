@@ -27,11 +27,11 @@ import (
 	"os"
 	"text/tabwriter"
 
-	"github.com/vmware/govmomi/examples"
-	"github.com/vmware/govmomi/units"
-	"github.com/vmware/govmomi/view"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/examples"
+	"github.com/zhengkes/govmomi/units"
+	"github.com/zhengkes/govmomi/view"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/mo"
 )
 
 func main() {

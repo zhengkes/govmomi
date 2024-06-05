@@ -26,11 +26,11 @@ import (
 	"os/user"
 	"path/filepath"
 
-	"github.com/vmware/govmomi/session"
-	"github.com/vmware/govmomi/vapi/rest"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/session"
+	"github.com/zhengkes/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // Client interface to support client session caching

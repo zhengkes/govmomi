@@ -24,9 +24,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/vmware/govmomi/vapi/internal"
-	"github.com/vmware/govmomi/vapi/rest"
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vapi/internal"
+	"github.com/zhengkes/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/vim25/soap"
 )
 
 // TransferEndpoint provides information on the source of a library item file.

@@ -23,13 +23,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vmware/govmomi"
-	"github.com/vmware/govmomi/event"
-	"github.com/vmware/govmomi/find"
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/task"
-	"github.com/vmware/govmomi/view"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi"
+	"github.com/zhengkes/govmomi/event"
+	"github.com/zhengkes/govmomi/find"
+	"github.com/zhengkes/govmomi/property"
+	"github.com/zhengkes/govmomi/task"
+	"github.com/zhengkes/govmomi/view"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 func TestRace(t *testing.T) {

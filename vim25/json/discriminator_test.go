@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	json "github.com/vmware/govmomi/vim25/json"
+	json "github.com/zhengkes/govmomi/vim25/json"
 )
 
 type DS1 struct {
@@ -394,7 +394,7 @@ var discriminatorTests = []struct {
 
 	// discriminator with full type path
 	{obj: uint(1), str: `{"_t":"uint","_v":1}`, mode: json.DiscriminatorEncodeTypeNameRootValue, discriminatorFunc: json.FullName},
-	{obj: DS2{F1: DS3Noop1{F1: "hello"}}, str: `{"f1":{"_t":"github.com/vmware/govmomi/vim25/json_test.DS3Noop1","f1":"hello"}}`, discriminatorFunc: json.FullName},
+	{obj: DS2{F1: DS3Noop1{F1: "hello"}}, str: `{"f1":{"_t":"github.com/zhengkes/govmomi/vim25/json_test.DS3Noop1","f1":"hello"}}`, discriminatorFunc: json.FullName},
 }
 
 func discriminatorToTypeFn(discriminator string) (reflect.Type, bool) {
@@ -405,7 +405,7 @@ func discriminatorToTypeFn(discriminator string) (reflect.Type, bool) {
 		return reflect.TypeOf(DS2{}), true
 	case "DS3":
 		return reflect.TypeOf(DS3{}), true
-	case "DS3Noop1", "github.com/vmware/govmomi/vim25/json_test.DS3Noop1":
+	case "DS3Noop1", "github.com/zhengkes/govmomi/vim25/json_test.DS3Noop1":
 		return reflect.TypeOf(DS3Noop1{}), true
 	case "DS4":
 		return reflect.TypeOf(DS4{}), true

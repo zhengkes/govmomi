@@ -22,11 +22,11 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/vmware/govmomi"
-	"github.com/vmware/govmomi/cns"
-	cnstypes "github.com/vmware/govmomi/cns/types"
-	"github.com/vmware/govmomi/simulator"
-	vim25types "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi"
+	"github.com/zhengkes/govmomi/cns"
+	cnstypes "github.com/zhengkes/govmomi/cns/types"
+	"github.com/zhengkes/govmomi/simulator"
+	vim25types "github.com/zhengkes/govmomi/vim25/types"
 )
 
 const (

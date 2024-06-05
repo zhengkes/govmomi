@@ -19,8 +19,8 @@ package methods
 import (
 	"context"
 
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vslm/types"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vslm/types"
 )
 
 type RetrieveContentBody struct {

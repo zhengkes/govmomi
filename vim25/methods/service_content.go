@@ -20,8 +20,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // copy of vim25.ServiceInstance to avoid import cycle

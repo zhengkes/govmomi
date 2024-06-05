@@ -19,8 +19,8 @@ package simulator
 import (
 	"time"
 
-	"github.com/vmware/govmomi/pbm/types"
-	vim "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/pbm/types"
+	vim "github.com/zhengkes/govmomi/vim25/types"
 )
 
 // profiles is a captured from vCenter 6.7's default set of PBM profiles.

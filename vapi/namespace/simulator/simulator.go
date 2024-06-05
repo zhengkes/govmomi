@@ -29,15 +29,15 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/vmware/govmomi"
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vapi/namespace"
-	vapi "github.com/vmware/govmomi/vapi/simulator"
-	"github.com/vmware/govmomi/view"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi"
+	"github.com/zhengkes/govmomi/property"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vapi/namespace"
+	vapi "github.com/zhengkes/govmomi/vapi/simulator"
+	"github.com/zhengkes/govmomi/view"
+	"github.com/zhengkes/govmomi/vim25/types"
 
-	"github.com/vmware/govmomi/vapi/namespace/internal"
+	"github.com/zhengkes/govmomi/vapi/namespace/internal"
 )
 
 func init() {

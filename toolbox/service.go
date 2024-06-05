@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/vmware/govmomi/toolbox/hgfs"
+	"github.com/zhengkes/govmomi/toolbox/hgfs"
 )
 
 const (

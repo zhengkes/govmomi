@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"net/url"
 
-	_ "github.com/vmware/govmomi/lookup/simulator"
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/sts"
-	_ "github.com/vmware/govmomi/sts/simulator"
-	"github.com/vmware/govmomi/vapi/rest"
-	"github.com/vmware/govmomi/vim25"
+	_ "github.com/zhengkes/govmomi/lookup/simulator"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/sts"
+	_ "github.com/zhengkes/govmomi/sts/simulator"
+	"github.com/zhengkes/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/vim25"
 )
 
 func ExampleClient_LoginByToken() {

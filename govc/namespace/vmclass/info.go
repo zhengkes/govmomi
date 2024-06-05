@@ -23,11 +23,11 @@ import (
 	"io"
 	"text/tabwriter"
 
-	"github.com/vmware/govmomi/units"
-	"github.com/vmware/govmomi/vapi/namespace"
+	"github.com/zhengkes/govmomi/units"
+	"github.com/zhengkes/govmomi/vapi/namespace"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/flags"
 )
 
 type infoResult namespace.VirtualMachineClassInfo

@@ -24,9 +24,9 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
-	vnetworking "github.com/vmware/govmomi/vapi/appliance/networking"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/flags"
+	vnetworking "github.com/zhengkes/govmomi/vapi/appliance/networking"
 )
 
 type info struct {

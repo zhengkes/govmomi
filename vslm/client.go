@@ -19,11 +19,11 @@ package vslm
 import (
 	"context"
 
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
-	vim "github.com/vmware/govmomi/vim25/types"
-	"github.com/vmware/govmomi/vslm/methods"
-	"github.com/vmware/govmomi/vslm/types"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	vim "github.com/zhengkes/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vslm/methods"
+	"github.com/zhengkes/govmomi/vslm/types"
 )
 
 const (

@@ -16,8 +16,8 @@ package methods
 import (
 	"context"
 
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vsan/types"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vsan/types"
 )
 
 type VsanPerfDiagnoseBody struct {

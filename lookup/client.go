@@ -24,13 +24,13 @@ import (
 	"log"
 	"net/url"
 
-	"github.com/vmware/govmomi/internal"
-	"github.com/vmware/govmomi/lookup/methods"
-	"github.com/vmware/govmomi/lookup/types"
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
-	vim "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/internal"
+	"github.com/zhengkes/govmomi/lookup/methods"
+	"github.com/zhengkes/govmomi/lookup/types"
+	"github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	vim "github.com/zhengkes/govmomi/vim25/types"
 )
 
 const (

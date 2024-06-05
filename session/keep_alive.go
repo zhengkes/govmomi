@@ -19,8 +19,8 @@ package session
 import (
 	"time"
 
-	"github.com/vmware/govmomi/session/keepalive"
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/session/keepalive"
+	"github.com/zhengkes/govmomi/vim25/soap"
 )
 
 // KeepAlive is a backward compatible wrapper around KeepAliveHandler.

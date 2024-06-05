@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/vmware/govmomi/session/cache"
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vim25"
+	"github.com/zhengkes/govmomi/session/cache"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vim25"
 
-	"github.com/vmware/govmomi/vapi/rest"
-	_ "github.com/vmware/govmomi/vapi/simulator"
+	"github.com/zhengkes/govmomi/vapi/rest"
+	_ "github.com/zhengkes/govmomi/vapi/simulator"
 )
 
 func ExampleSession_Login() {

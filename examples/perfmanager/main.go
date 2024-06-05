@@ -25,11 +25,11 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/vmware/govmomi/examples"
-	"github.com/vmware/govmomi/performance"
-	"github.com/vmware/govmomi/view"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/examples"
+	"github.com/zhengkes/govmomi/performance"
+	"github.com/zhengkes/govmomi/view"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 var interval = flag.Int("i", 20, "Interval ID")

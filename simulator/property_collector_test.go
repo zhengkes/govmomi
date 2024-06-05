@@ -24,19 +24,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vmware/govmomi"
-	"github.com/vmware/govmomi/find"
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/simulator/esx"
-	"github.com/vmware/govmomi/simulator/internal"
-	"github.com/vmware/govmomi/simulator/vpx"
-	"github.com/vmware/govmomi/view"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/methods"
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi"
+	"github.com/zhengkes/govmomi/find"
+	"github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/property"
+	"github.com/zhengkes/govmomi/simulator/esx"
+	"github.com/zhengkes/govmomi/simulator/internal"
+	"github.com/zhengkes/govmomi/simulator/vpx"
+	"github.com/zhengkes/govmomi/view"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/methods"
+	"github.com/zhengkes/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 func TestRetrieveProperties(t *testing.T) {
@@ -1551,7 +1551,7 @@ func TestPropertyCollectorNoPathSet(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	// request from https://github.com/vmware/govmomi/issues/1199
+	// request from https://github.com/zhengkes/govmomi/issues/1199
 	req := &types.RetrieveProperties{
 		This: client.ServiceContent.PropertyCollector,
 		SpecSet: []types.PropertyFilterSpec{

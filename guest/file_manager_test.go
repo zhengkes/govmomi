@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/vmware/govmomi/guest"
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/guest"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 func TestTranferURL(t *testing.T) {

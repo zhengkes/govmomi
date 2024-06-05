@@ -17,8 +17,8 @@ limitations under the License.
 package mo
 
 import (
-	"github.com/vmware/govmomi/eam/types"
-	vim "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/eam/types"
+	vim "github.com/zhengkes/govmomi/vim25/types"
 )
 
 // EamObject contains the fields common to all EAM objects.

@@ -19,7 +19,7 @@ package simulator
 import (
 	"testing"
 
-	"github.com/vmware/govmomi/simulator/vpx"
+	"github.com/zhengkes/govmomi/simulator/vpx"
 )
 
 func compareModel(t *testing.T, m *Model) {

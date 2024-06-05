@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 func TestRegistry(t *testing.T) {

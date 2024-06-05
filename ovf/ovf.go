@@ -19,7 +19,7 @@ package ovf
 import (
 	"io"
 
-	"github.com/vmware/govmomi/vim25/xml"
+	"github.com/zhengkes/govmomi/vim25/xml"
 )
 
 func Unmarshal(r io.Reader) (*Envelope, error) {

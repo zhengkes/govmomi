@@ -28,11 +28,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/vmware/govmomi/internal"
-	"github.com/vmware/govmomi/simulator/esx"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/internal"
+	"github.com/zhengkes/govmomi/simulator/esx"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 func TestHostSystemManagementIPs(t *testing.T) {

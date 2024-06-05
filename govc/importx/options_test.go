@@ -21,7 +21,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/vmware/govmomi/govc/importx"
+	"github.com/zhengkes/govmomi/govc/importx"
 )
 
 func TestDecodeOptions(t *testing.T) {

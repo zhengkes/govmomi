@@ -25,9 +25,9 @@ import (
 	"os"
 	"path"
 
-	"github.com/vmware/govmomi/vapi/namespace/internal"
-	"github.com/vmware/govmomi/vapi/rest"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vapi/namespace/internal"
+	"github.com/zhengkes/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // Manager extends rest.Client, adding namespace related methods.

@@ -21,11 +21,11 @@ import (
 	"net/http"
 	"path"
 
-	"github.com/vmware/govmomi/vapi/rest"
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/vim25/types"
 
-	"github.com/vmware/govmomi/vapi/cluster/internal"
+	"github.com/zhengkes/govmomi/vapi/cluster/internal"
 )
 
 // Manager extends rest.Client, adding cluster related methods.

@@ -17,8 +17,8 @@ limitations under the License.
 package eam
 
 import (
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/soap"
 )
 
 const (

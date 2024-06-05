@@ -21,8 +21,8 @@ import (
 	"flag"
 	"path"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/flags"
 )
 
 type create struct {

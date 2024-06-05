@@ -20,12 +20,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/task"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/methods"
-	"github.com/vmware/govmomi/vim25/progress"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/property"
+	"github.com/zhengkes/govmomi/task"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/methods"
+	"github.com/zhengkes/govmomi/vim25/progress"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // Task is a convenience wrapper around task.Task that keeps a reference to

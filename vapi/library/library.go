@@ -23,9 +23,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/vapi/internal"
-	"github.com/vmware/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/vapi/internal"
+	"github.com/zhengkes/govmomi/vapi/rest"
 )
 
 // StorageBacking defines a storage location where content in a library will be stored.

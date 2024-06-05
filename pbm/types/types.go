@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // A boxed array of `PbmCapabilityConstraintInstance`. To be used in `Any` placeholders.

@@ -16,7 +16,7 @@ limitations under the License.
 
 package esxcli
 
-import "github.com/vmware/govmomi/object"
+import "github.com/zhengkes/govmomi/object"
 
 type FirewallInfo struct {
 	Loaded        bool   `json:"loaded"`

@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/vmware/govmomi/test"
-	"github.com/vmware/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/test"
+	"github.com/zhengkes/govmomi/vim25/mo"
 )
 
 func TestSearch(t *testing.T) {

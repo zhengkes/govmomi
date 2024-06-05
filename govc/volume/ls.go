@@ -24,11 +24,11 @@ import (
 	"log"
 	"text/tabwriter"
 
-	"github.com/vmware/govmomi/cns/types"
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/units"
-	vim "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/cns/types"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/flags"
+	"github.com/zhengkes/govmomi/units"
+	vim "github.com/zhengkes/govmomi/vim25/types"
 )
 
 type ls struct {

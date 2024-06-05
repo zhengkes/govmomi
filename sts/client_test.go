@@ -29,18 +29,18 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	lsim "github.com/vmware/govmomi/lookup/simulator"
-	"github.com/vmware/govmomi/session"
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/ssoadmin"
-	_ "github.com/vmware/govmomi/ssoadmin/simulator"
-	"github.com/vmware/govmomi/ssoadmin/types"
-	"github.com/vmware/govmomi/sts"
-	_ "github.com/vmware/govmomi/sts/simulator"
-	"github.com/vmware/govmomi/vapi/rest"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/methods"
-	"github.com/vmware/govmomi/vim25/soap"
+	lsim "github.com/zhengkes/govmomi/lookup/simulator"
+	"github.com/zhengkes/govmomi/session"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/ssoadmin"
+	_ "github.com/zhengkes/govmomi/ssoadmin/simulator"
+	"github.com/zhengkes/govmomi/ssoadmin/types"
+	"github.com/zhengkes/govmomi/sts"
+	_ "github.com/zhengkes/govmomi/sts/simulator"
+	"github.com/zhengkes/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/methods"
+	"github.com/zhengkes/govmomi/vim25/soap"
 )
 
 // The following can help debug signature mismatch:

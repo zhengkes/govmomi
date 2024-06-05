@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // This spec contains information needed for queryActiveAlarm API to filter the result.

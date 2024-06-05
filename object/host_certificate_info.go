@@ -27,8 +27,8 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // HostCertificateInfo provides helpers for types.HostCertificateManagerCertificateInfo

@@ -20,7 +20,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // WaitOptions defines options for a property collector's WaitForUpdatesEx

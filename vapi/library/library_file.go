@@ -20,7 +20,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/vmware/govmomi/vapi/internal"
+	"github.com/zhengkes/govmomi/vapi/internal"
 )
 
 // Checksum provides checksum information on library item files.

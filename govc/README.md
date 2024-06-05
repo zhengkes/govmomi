@@ -12,14 +12,14 @@ It also acts as a [test harness](test) for the `govmomi` APIs and provides worki
 The official `govc` [Docker images](https://hub.docker.com/r/vmware/govc) are built from this [Dockerfile](../Dockerfile.govc).
 
 ### Binaries
-You can find prebuilt `govc` binaries on the [releases page](https://github.com/vmware/govmomi/releases).
+You can find prebuilt `govc` binaries on the [releases page](https://github.com/zhengkes/govmomi/releases).
 
 You can download and install a binary locally like this:
 
 ```bash
 # extract govc binary to /usr/local/bin
 # note: the "tar" command must run with root permissions
-curl -L -o - "https://github.com/vmware/govmomi/releases/latest/download/govc_$(uname -s)_$(uname -m).tar.gz" | tar -C /usr/local/bin -xvzf - govc
+curl -L -o - "https://github.com/zhengkes/govmomi/releases/latest/download/govc_$(uname -s)_$(uname -m).tar.gz" | tar -C /usr/local/bin -xvzf - govc
 ```
 
 ### Source
@@ -31,7 +31,7 @@ toolchain](https://golang.org/dl/). You can then install the latest `govc` from
 Github using:
 
 ```bash
-go install github.com/vmware/govmomi/govc@latest
+go install github.com/zhengkes/govmomi/govc@latest
 ```
 
 **Note:** `govmomi` and its binaries use [Go
@@ -44,10 +44,10 @@ defined and are honored by `go get`.
 source.
 
 If you've made local modifications to the repository at
-`$GOPATH/src/github.com/vmware/govmomi`, you can install using:
+`$GOPATH/src/github.com/zhengkes/govmomi`, you can install using:
 
 ```bash
-go install github.com/vmware/govmomi/govc
+go install github.com/zhengkes/govmomi/govc
 ```
 
 #### Install via `goreleaser`
@@ -62,7 +62,7 @@ Install `goreleaser` as per the installation
 [instructions](https://goreleaser.com/install/), then:
 
 ```bash
-git clone https://github.com/vmware/govmomi.git
+git clone https://github.com/zhengkes/govmomi.git
 cd govmomi
 
 # pick a tag (>=v0.25.0)
@@ -272,7 +272,7 @@ Several examples are embedded in the govc command [help](USAGE.md)
 
 * [Upload ssh public key to a VM](examples/lib/ssh.sh)
 
-* [Create a CoreOS VM](https://github.com/vmware/govmomi/blob/main/toolbox/toolbox-test.sh)
+* [Create a CoreOS VM](https://github.com/zhengkes/govmomi/blob/main/toolbox/toolbox-test.sh)
 
 * [Create a Debian VM](https://github.com/kubernetes/kubernetes/tree/master/cluster/vsphere)
 

@@ -19,12 +19,12 @@ package cns
 import (
 	"context"
 
-	"github.com/vmware/govmomi/cns/methods"
-	cnstypes "github.com/vmware/govmomi/cns/types"
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
-	vimtypes "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/cns/methods"
+	cnstypes "github.com/zhengkes/govmomi/cns/types"
+	"github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	vimtypes "github.com/zhengkes/govmomi/vim25/types"
 )
 
 // Namespace and Path constants

@@ -42,10 +42,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/vmware/govmomi/internal/version"
-	"github.com/vmware/govmomi/vim25/progress"
-	"github.com/vmware/govmomi/vim25/types"
-	"github.com/vmware/govmomi/vim25/xml"
+	"github.com/zhengkes/govmomi/internal/version"
+	"github.com/zhengkes/govmomi/vim25/progress"
+	"github.com/zhengkes/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/xml"
 )
 
 type HasFault interface {

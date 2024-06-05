@@ -9,7 +9,7 @@ This script makes it simple to run your laptop/desktop local binaries on such a 
 This script is a fork of the [VIC devbox](https://github.com/vmware/vic/tree/master/infra/machines/devbox),
 without a Vagrant file or provisioning beyond the bento box itself.
 
-[toolbox]:https://github.com/vmware/govmomi/blob/main/toolbox/README.md
+[toolbox]:https://github.com/zhengkes/govmomi/blob/main/toolbox/README.md
 [vic]:https://github.com/vmware/vic
 [vcp]:https://github.com/kubernetes/kubernetes/tree/master/pkg/cloudprovider/providers/vsphere
 
@@ -49,7 +49,7 @@ Some example use cases for devbox...
 As an alternative to the CoreOS based [toolbox-test.sh](../../toolbox/toolbox-test.sh), the toolbox can be run on devbox like so:
 
 ``` console
-% go install github.com/vmware/govmomi/toolbox/toolbox
+% go install github.com/zhengkes/govmomi/toolbox/toolbox
 % ip=$(govc vm.ip -esxcli "$USER-ubuntu-16.04")
 % ssh vagrant@$ip sudo service open-vm-tools stop
 % ssh vagrant@$ip $GOPATH/bin/toolbox -toolbox.trace

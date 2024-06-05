@@ -20,8 +20,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/vmware/govmomi/simulator/esx"
-	"github.com/vmware/govmomi/test"
+	"github.com/zhengkes/govmomi/simulator/esx"
+	"github.com/zhengkes/govmomi/test"
 )
 
 func TestHostDatastoreSystemResignatureUnresolvedVmfsVolume(t *testing.T) {

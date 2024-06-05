@@ -29,15 +29,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/vmware/govmomi/lookup"
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/ssoadmin"
-	"github.com/vmware/govmomi/sts"
-	"github.com/vmware/govmomi/vim25"
+	"github.com/zhengkes/govmomi/lookup"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/ssoadmin"
+	"github.com/zhengkes/govmomi/sts"
+	"github.com/zhengkes/govmomi/vim25"
 
-	lsim "github.com/vmware/govmomi/lookup/simulator"
-	_ "github.com/vmware/govmomi/ssoadmin/simulator"
-	_ "github.com/vmware/govmomi/sts/simulator"
+	lsim "github.com/zhengkes/govmomi/lookup/simulator"
+	_ "github.com/zhengkes/govmomi/ssoadmin/simulator"
+	_ "github.com/zhengkes/govmomi/sts/simulator"
 )
 
 // test lookup.EndpointURL usage by the ssoadmin and sts clients

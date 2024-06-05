@@ -19,8 +19,8 @@ package simulator
 import (
 	"testing"
 
-	"github.com/vmware/govmomi/simulator/vpx"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/simulator/vpx"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 func TestAuthorizationManager(t *testing.T) {

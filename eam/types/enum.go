@@ -19,7 +19,7 @@ package types
 import (
 	"reflect"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // Defines if the deployed VMs needs to run on different hosts.

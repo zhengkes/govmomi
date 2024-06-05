@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/vmware/govmomi/vapi/internal"
-	"github.com/vmware/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/vapi/internal"
+	"github.com/zhengkes/govmomi/vapi/rest"
 )
 
 // Session is used to create an initial update or download session

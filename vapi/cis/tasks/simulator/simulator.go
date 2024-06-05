@@ -20,9 +20,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vapi/cis/tasks"
-	vapi "github.com/vmware/govmomi/vapi/simulator"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vapi/cis/tasks"
+	vapi "github.com/zhengkes/govmomi/vapi/simulator"
 )
 
 func init() {

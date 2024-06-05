@@ -29,12 +29,12 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/ovf"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/progress"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/ovf"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/progress"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 var (

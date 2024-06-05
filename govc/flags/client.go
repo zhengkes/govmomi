@@ -30,14 +30,14 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/vmware/govmomi/cns"
-	"github.com/vmware/govmomi/pbm"
-	"github.com/vmware/govmomi/session"
-	"github.com/vmware/govmomi/session/cache"
-	"github.com/vmware/govmomi/session/keepalive"
-	"github.com/vmware/govmomi/vapi/rest"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/cns"
+	"github.com/zhengkes/govmomi/pbm"
+	"github.com/zhengkes/govmomi/session"
+	"github.com/zhengkes/govmomi/session/cache"
+	"github.com/zhengkes/govmomi/session/keepalive"
+	"github.com/zhengkes/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/soap"
 )
 
 const (
@@ -129,8 +129,8 @@ func (flag *ClientFlag) Register(ctx context.Context, f *flag.FlagSet) {
 		}
 
 		{
-			flag.username = os.Getenv(envUsername)
-			flag.password = os.Getenv(envPassword)
+			f.StringVar(&flag.username, "uu", os.Getenv(envUsername), "VC Username")
+			f.StringVar(&flag.password, "up", os.Getenv(envPassword), "VC Password")
 		}
 
 		{

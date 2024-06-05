@@ -21,9 +21,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vim25"
+	"github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vim25"
 )
 
 func TestHostConfigManager(t *testing.T) {

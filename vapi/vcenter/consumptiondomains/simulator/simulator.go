@@ -21,9 +21,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/vmware/govmomi/simulator"
-	vapi "github.com/vmware/govmomi/vapi/simulator"
-	"github.com/vmware/govmomi/vapi/vcenter/consumptiondomains/zones"
+	"github.com/zhengkes/govmomi/simulator"
+	vapi "github.com/zhengkes/govmomi/vapi/simulator"
+	"github.com/zhengkes/govmomi/vapi/vcenter/consumptiondomains/zones"
 )
 
 const (

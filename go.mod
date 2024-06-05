@@ -1,4 +1,4 @@
-module github.com/vmware/govmomi
+module github.com/zhengkes/govmomi
 
 go 1.19
 

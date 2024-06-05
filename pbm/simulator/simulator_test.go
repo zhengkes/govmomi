@@ -23,14 +23,14 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/vmware/govmomi"
-	"github.com/vmware/govmomi/pbm"
-	"github.com/vmware/govmomi/pbm/types"
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/view"
-	"github.com/vmware/govmomi/vim25/mo"
-	vim "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi"
+	"github.com/zhengkes/govmomi/pbm"
+	"github.com/zhengkes/govmomi/pbm/types"
+	"github.com/zhengkes/govmomi/property"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/view"
+	"github.com/zhengkes/govmomi/vim25/mo"
+	vim "github.com/zhengkes/govmomi/vim25/types"
 )
 
 // TestSimulator is a copy of pbm/client_test.go:ClientTest

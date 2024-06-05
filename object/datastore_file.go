@@ -28,7 +28,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/soap"
 )
 
 // DatastoreFile implements io.Reader, io.Seeker and io.Closer interfaces for datastore file access.

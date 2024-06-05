@@ -23,13 +23,13 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/vmware/govmomi"
-	"github.com/vmware/govmomi/pbm/types"
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/view"
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/soap"
-	vim "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi"
+	"github.com/zhengkes/govmomi/pbm/types"
+	"github.com/zhengkes/govmomi/property"
+	"github.com/zhengkes/govmomi/view"
+	"github.com/zhengkes/govmomi/vim25/mo"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	vim "github.com/zhengkes/govmomi/vim25/types"
 )
 
 func TestClient(t *testing.T) {

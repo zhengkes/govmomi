@@ -20,8 +20,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/vmware/govmomi/vapi/internal"
-	"github.com/vmware/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/vapi/internal"
+	"github.com/zhengkes/govmomi/vapi/rest"
 )
 
 // DownloadFile is the specification for the downloadsession

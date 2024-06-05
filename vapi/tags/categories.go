@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/vmware/govmomi/vapi/internal"
+	"github.com/zhengkes/govmomi/vapi/internal"
 )
 
 // Category provides methods to create, read, update, delete, and enumerate

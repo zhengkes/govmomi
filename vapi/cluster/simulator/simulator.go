@@ -24,14 +24,14 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/vmware/govmomi"
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vapi/rest"
-	vapi "github.com/vmware/govmomi/vapi/simulator"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vapi/rest"
+	vapi "github.com/zhengkes/govmomi/vapi/simulator"
+	"github.com/zhengkes/govmomi/vim25/types"
 
-	"github.com/vmware/govmomi/vapi/cluster"
-	"github.com/vmware/govmomi/vapi/cluster/internal"
+	"github.com/zhengkes/govmomi/vapi/cluster"
+	"github.com/zhengkes/govmomi/vapi/cluster/internal"
 )
 
 func init() {

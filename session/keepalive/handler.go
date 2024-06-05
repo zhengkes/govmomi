@@ -23,9 +23,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/vmware/govmomi/vapi/rest"
-	"github.com/vmware/govmomi/vim25/methods"
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vapi/rest"
+	"github.com/zhengkes/govmomi/vim25/methods"
+	"github.com/zhengkes/govmomi/vim25/soap"
 )
 
 // handler contains the generic keep alive settings and logic

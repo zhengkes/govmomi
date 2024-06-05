@@ -20,10 +20,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/vmware/govmomi/eam"
-	"github.com/vmware/govmomi/eam/methods"
-	"github.com/vmware/govmomi/eam/types"
-	vim "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/eam"
+	"github.com/zhengkes/govmomi/eam/methods"
+	"github.com/zhengkes/govmomi/eam/types"
+	vim "github.com/zhengkes/govmomi/vim25/types"
 )
 
 // EamObject contains the fields and functions common to all objects.

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/internal"
+	"github.com/zhengkes/govmomi/govc/flags"
+	"github.com/zhengkes/govmomi/internal"
 )
 
 type Command struct {

@@ -19,7 +19,7 @@ package object
 import (
 	"context"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 // The NetworkReference interface is implemented by managed objects

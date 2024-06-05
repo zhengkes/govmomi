@@ -34,8 +34,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/vmware/govmomi/toolbox/hgfs"
-	"github.com/vmware/govmomi/toolbox/vix"
+	"github.com/zhengkes/govmomi/toolbox/hgfs"
+	"github.com/zhengkes/govmomi/toolbox/vix"
 )
 
 var (

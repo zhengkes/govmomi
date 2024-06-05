@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/vmware/govmomi"
-	"github.com/vmware/govmomi/lookup"
-	lsim "github.com/vmware/govmomi/lookup/simulator"
-	"github.com/vmware/govmomi/lookup/types"
-	"github.com/vmware/govmomi/simulator"
+	"github.com/zhengkes/govmomi"
+	"github.com/zhengkes/govmomi/lookup"
+	lsim "github.com/zhengkes/govmomi/lookup/simulator"
+	"github.com/zhengkes/govmomi/lookup/types"
+	"github.com/zhengkes/govmomi/simulator"
 )
 
 func ExampleServiceRegistration() {

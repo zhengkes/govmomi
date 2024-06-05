@@ -17,7 +17,7 @@ limitations under the License.
 package ovf
 
 import (
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 /*

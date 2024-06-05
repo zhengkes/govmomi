@@ -16,7 +16,7 @@ limitations under the License.
 
 package vpx
 
-import "github.com/vmware/govmomi/vim25/types"
+import "github.com/zhengkes/govmomi/vim25/types"
 
 // TODO: figure out whether this is Setting or AdvancedOptions - see esx/setting.go for the difference
 

@@ -20,10 +20,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/vmware/govmomi"
-	"github.com/vmware/govmomi/simulator/esx"
-	"github.com/vmware/govmomi/vim25/methods"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi"
+	"github.com/zhengkes/govmomi/simulator/esx"
+	"github.com/zhengkes/govmomi/vim25/methods"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 func TestUserDirectory(t *testing.T) {

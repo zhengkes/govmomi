@@ -21,12 +21,12 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/vmware/govmomi/pbm"
-	"github.com/vmware/govmomi/pbm/methods"
-	"github.com/vmware/govmomi/pbm/types"
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vim25/soap"
-	vim "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/pbm"
+	"github.com/zhengkes/govmomi/pbm/methods"
+	"github.com/zhengkes/govmomi/pbm/types"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	vim "github.com/zhengkes/govmomi/vim25/types"
 )
 
 var content = types.PbmServiceInstanceContent{

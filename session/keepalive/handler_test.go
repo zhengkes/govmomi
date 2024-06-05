@@ -22,13 +22,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vmware/govmomi/session"
-	"github.com/vmware/govmomi/session/keepalive"
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vapi/rest"
-	_ "github.com/vmware/govmomi/vapi/simulator"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/session"
+	"github.com/zhengkes/govmomi/session/keepalive"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vapi/rest"
+	_ "github.com/zhengkes/govmomi/vapi/simulator"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/soap"
 )
 
 type count struct {

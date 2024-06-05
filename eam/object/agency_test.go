@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vmware/govmomi/eam/object"
-	"github.com/vmware/govmomi/eam/types"
-	"github.com/vmware/govmomi/find"
-	"github.com/vmware/govmomi/vim25/soap"
-	vim "github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/eam/object"
+	"github.com/zhengkes/govmomi/eam/types"
+	"github.com/zhengkes/govmomi/find"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	vim "github.com/zhengkes/govmomi/vim25/types"
 )
 
 func TestAgency(t *testing.T) {

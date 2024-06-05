@@ -16,7 +16,7 @@ limitations under the License.
 
 package esx
 
-import "github.com/vmware/govmomi/vim25/types"
+import "github.com/zhengkes/govmomi/vim25/types"
 
 // HardwareVersion is the default VirtualMachine.Config.Version
 var HardwareVersion = "vmx-13"

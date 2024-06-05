@@ -21,7 +21,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/vmware/govmomi/vapi/internal"
+	"github.com/zhengkes/govmomi/vapi/internal"
 )
 
 const (

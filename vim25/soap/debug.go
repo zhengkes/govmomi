@@ -23,7 +23,7 @@ import (
 	"net/http/httputil"
 	"sync/atomic"
 
-	"github.com/vmware/govmomi/vim25/debug"
+	"github.com/zhengkes/govmomi/vim25/debug"
 )
 
 var (

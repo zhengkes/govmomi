@@ -22,10 +22,10 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/vapi/esx/settings/clusters"
-	"github.com/vmware/govmomi/vapi/esx/settings/depots"
-	vapi "github.com/vmware/govmomi/vapi/simulator"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/vapi/esx/settings/clusters"
+	"github.com/zhengkes/govmomi/vapi/esx/settings/depots"
+	vapi "github.com/zhengkes/govmomi/vapi/simulator"
 )
 
 func init() {

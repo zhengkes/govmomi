@@ -23,9 +23,9 @@ import (
 	"io"
 	"text/tabwriter"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
-	vlogging "github.com/vmware/govmomi/vapi/appliance/logging"
+	"github.com/zhengkes/govmomi/govc/cli"
+	"github.com/zhengkes/govmomi/govc/flags"
+	vlogging "github.com/zhengkes/govmomi/vapi/appliance/logging"
 )
 
 type info struct {

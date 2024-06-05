@@ -22,10 +22,10 @@ import (
 
 	"github.com/dougm/pretty"
 
-	"github.com/vmware/govmomi"
-	"github.com/vmware/govmomi/find"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vsan/types"
+	"github.com/zhengkes/govmomi"
+	"github.com/zhengkes/govmomi/find"
+	"github.com/zhengkes/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vsan/types"
 )
 
 func TestClient(t *testing.T) {

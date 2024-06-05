@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/vmware/govmomi/vim25/json"
+	"github.com/zhengkes/govmomi/vim25/json"
 )
 
 const (

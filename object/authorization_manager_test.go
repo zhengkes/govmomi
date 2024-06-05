@@ -20,12 +20,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/session"
-	"github.com/vmware/govmomi/simulator"
-	"github.com/vmware/govmomi/simulator/esx"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/object"
+	"github.com/zhengkes/govmomi/session"
+	"github.com/zhengkes/govmomi/simulator"
+	"github.com/zhengkes/govmomi/simulator/esx"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 func TestAuthorizationManagerPrivilege(t *testing.T) {

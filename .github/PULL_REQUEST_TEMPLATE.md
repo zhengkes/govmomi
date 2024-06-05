@@ -35,4 +35,4 @@ details for your test configuration.
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged
 
-[guidelines]: https://github.com/vmware/govmomi/blob/main/CONTRIBUTING.md
+[guidelines]: https://github.com/zhengkes/govmomi/blob/main/CONTRIBUTING.md

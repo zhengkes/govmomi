@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/vmware/govmomi/units"
-	"github.com/vmware/govmomi/vim25/methods"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/units"
+	"github.com/zhengkes/govmomi/vim25/methods"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 const (

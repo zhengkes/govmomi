@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 func intPtrValue(val int32) *int32 {

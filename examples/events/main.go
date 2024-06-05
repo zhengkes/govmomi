@@ -23,11 +23,11 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/vmware/govmomi/event"
-	"github.com/vmware/govmomi/examples"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/methods"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/zhengkes/govmomi/event"
+	"github.com/zhengkes/govmomi/examples"
+	"github.com/zhengkes/govmomi/vim25"
+	"github.com/zhengkes/govmomi/vim25/methods"
+	"github.com/zhengkes/govmomi/vim25/types"
 )
 
 func main() {

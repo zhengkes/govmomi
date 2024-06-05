@@ -11,14 +11,14 @@ language, it can be used by any language that can talk to the vSphere API.
 The official `vcsim` [Docker images](https://hub.docker.com/r/vmware/vcsim) are built from this [Dockerfile](../Dockerfile.vcsim).
 
 ### Binaries
-You can find prebuilt `vcsim` binaries on the [releases page](https://github.com/vmware/govmomi/releases).
+You can find prebuilt `vcsim` binaries on the [releases page](https://github.com/zhengkes/govmomi/releases).
 
 You can download and install a binary locally like this:
 
 ```bash
 # extract vcsim binary to /usr/local/bin
 # note: the "tar" command must run with root permissions
-curl -L -o - https://github.com/vmware/govmomi/releases/latest/download/vcsim_$(uname -s)_$(uname -m).tar.gz | tar -C /usr/local/bin -xvzf - vcsim
+curl -L -o - https://github.com/zhengkes/govmomi/releases/latest/download/vcsim_$(uname -s)_$(uname -m).tar.gz | tar -C /usr/local/bin -xvzf - vcsim
 ```
 
 ### Source
@@ -30,7 +30,7 @@ toolchain](https://golang.org/dl/). You can then install the latest `vcsim` from
 Github using:
 
 ```bash
-go install github.com/vmware/govmomi/vcsim@latest
+go install github.com/zhengkes/govmomi/vcsim@latest
 $GOPATH/bin/vcsim -h
 ```
 
@@ -55,7 +55,7 @@ Install `goreleaser` as per the installation
 [instructions](https://goreleaser.com/install/), then:
 
 ```bash
-git clone https://github.com/vmware/govmomi.git
+git clone https://github.com/zhengkes/govmomi.git
 cd govmomi
 
 # pick a tag (>=v0.25.0)
@@ -144,7 +144,7 @@ Usage of vcsim:
         Number of virtual machines per resource pool (default 2)
 ```
 
-[model]:https://godoc.org/github.com/vmware/govmomi/simulator#Model
+[model]:https://godoc.org/github.com/zhengkes/govmomi/simulator#Model
 
 ### Version Information
 
@@ -416,12 +416,12 @@ kill $GOVC_SIM_PID
 rm -f $govc_sim_env
 ```
 
-Tests written in Go can also use the [simulator package](https://godoc.org/github.com/vmware/govmomi/simulator)
+Tests written in Go can also use the [simulator package](https://godoc.org/github.com/zhengkes/govmomi/simulator)
 directly, rather than the vcsim binary.
 
 ## Feature Details
 
-For more details on vcsim features, see the project [wiki](https://github.com/vmware/govmomi/wiki/vcsim-features).
+For more details on vcsim features, see the project [wiki](https://github.com/zhengkes/govmomi/wiki/vcsim-features).
 
 ## Projects using vcsim
 

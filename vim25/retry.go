@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/zhengkes/govmomi/vim25/soap"
 )
 
 type RetryFunc func(err error) (retry bool, delay time.Duration)
