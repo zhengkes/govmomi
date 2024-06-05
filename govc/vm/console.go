@@ -34,10 +34,12 @@ import (
 
 type console struct {
 	*flags.VirtualMachineFlag
-
+	//1
+	*flags.OutputFlag
 	h5      bool
 	wss     bool
 	capture string
+	link    string
 }
 
 func init() {
@@ -47,6 +49,9 @@ func init() {
 func (cmd *console) Register(ctx context.Context, f *flag.FlagSet) {
 	cmd.VirtualMachineFlag, ctx = flags.NewVirtualMachineFlag(ctx)
 	cmd.VirtualMachineFlag.Register(ctx, f)
+	//2
+	cmd.OutputFlag, ctx = flags.NewOutputFlag(ctx)
+	cmd.OutputFlag.Register(ctx, f)
 
 	f.BoolVar(&cmd.h5, "h5", false, "Generate HTML5 UI console link")
 	f.BoolVar(&cmd.wss, "wss", false, "Generate WebSocket console link")
@@ -136,7 +141,7 @@ func (cmd *console) Run(ctx context.Context, f *flag.FlagSet) error {
 		}
 
 		link := fmt.Sprintf("wss://%s:%d/ticket/%s", ticket.Host, ticket.Port, ticket.Ticket)
-		fmt.Fprintln(cmd.Out, link)
+		cmd.link = link
 		return nil
 	}
 
@@ -145,8 +150,6 @@ func (cmd *console) Run(ctx context.Context, f *flag.FlagSet) error {
 	if err != nil {
 		return err
 	}
-
-	var link string
 
 	if cmd.h5 {
 		m := object.NewOptionManager(c, *c.ServiceContent.Setting)
@@ -175,12 +178,14 @@ func (cmd *console) Run(ctx context.Context, f *flag.FlagSet) error {
 			"thumbprint":    []string{info.ThumbprintSHA1},
 		}.Encode()
 
-		link = u.String()
+		cmd.link = u.String()
 	} else {
-		link = fmt.Sprintf("vmrc://clone:%s@%s/?moid=%s", ticket, u.Hostname(), vm.Reference().Value)
+		cmd.link = fmt.Sprintf("vmrc://clone:%s@%s/?moid=%s", ticket, u.Hostname(), vm.Reference().Value)
 	}
-
-	fmt.Fprintln(cmd.Out, link)
-
 	return nil
+}
+
+// 3
+func (cmd *console) Dump() interface{} {
+	return cmd.link
 }

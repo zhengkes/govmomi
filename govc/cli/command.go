@@ -89,6 +89,8 @@ Common options:
   -tls-ca-certs=            TLS CA certificates file [GOVC_TLS_CA_CERTS]
   -tls-known-hosts=         TLS known hosts file [GOVC_TLS_KNOWN_HOSTS]
   -u=                       ESX or vCenter URL [GOVC_URL]
+  -uu=                      vCenter username [GOVC_USERNAME]
+  -up=                      vCenter password [GOVC_PASSWORD]
   -vim-namespace=urn:vim25  Vim namespace [GOVC_VIM_NAMESPACE]
   -vim-version=6.0          Vim version [GOVC_VIM_VERSION]
   -dc=                      Datacenter [GOVC_DATACENTER]
