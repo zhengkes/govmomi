@@ -108,6 +108,8 @@ func newOptionsFlag(ctx context.Context) (*OptionsFlag, context.Context) {
 
 func (flag *OptionsFlag) Register(ctx context.Context, f *flag.FlagSet) {
 	f.StringVar(&flag.path, "options", "", "Options spec file path for VM deployment")
+	f.BoolVar(&flag.Options.MarkAsTemplate, "options.mark-as-template", false, "Just upload as template")
+	f.BoolVar(&flag.Options.PowerOn, "options.power-on", false, "Power on VM after import")
 }
 
 func (flag *OptionsFlag) Process(ctx context.Context) error {
